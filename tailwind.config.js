@@ -78,11 +78,11 @@ export default {
         saffron: '#ff751f',
       },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'sans-serif'],
+        sans: ['"Poppins"', 'Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'sans-serif'],
         // One family across the product; "display" only tightens tracking.
-        display: ['Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'sans-serif'],
+        display: ['"Poppins"', 'Inter', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
-        grotesk: ['"Space Grotesk Variable"', 'Inter', 'system-ui', 'sans-serif'],
+        grotesk: ['"Poppins"', 'Inter', 'system-ui', 'sans-serif'],
       },
       letterSpacing: { label: '0.16em' },
       maxWidth: { content: '1320px' },

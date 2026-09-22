@@ -126,7 +126,7 @@ export function Ecosystem() {
             })}
             <g id="eco-dots" />
             <rect x="120" y={LAYER_TOP} width="760" height={LAYER_BOT - LAYER_TOP} rx="18" fill="url(#eco-layer)" stroke="rgba(159,211,223,0.45)" />
-            <text x="500" y={LAYER_TOP + 32} textAnchor="middle" fill="#f2f6f8" style={{ font: '600 20px Space Grotesk Variable, sans-serif', letterSpacing: '0.16em' }}>
+            <text x="500" y={LAYER_TOP + 32} textAnchor="middle" fill="#f2f6f8" style={{ font: '600 20px Poppins, sans-serif', letterSpacing: '0.16em' }}>
               LAND PULSE ANALYTICS LAYER
             </text>
             <text x="500" y={LAYER_TOP + 54} textAnchor="middle" fill="#8d9ba6" style={{ font: '500 11px JetBrains Mono, monospace', letterSpacing: '0.14em' }}>
