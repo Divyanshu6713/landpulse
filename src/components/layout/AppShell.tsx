@@ -27,6 +27,7 @@ import {
   Moon,
   Network,
   PlugZap,
+  Repeat,
   Search,
   Settings2,
   ShieldAlert,
@@ -388,7 +389,7 @@ function UserMenu() {
         <span className="grid h-7 w-7 place-items-center rounded-full bg-slate-700 text-2xs font-semibold text-white dark:bg-slate-600">{initials}</span>
         <span className="hidden max-w-[180px] text-left leading-tight lg:block">
           <span className="block truncate text-sm font-medium text-ink">{user.name}</span>
-          <span className="block truncate text-2xs text-ink-3">{user.roleLabel}</span>
+          <span className="block truncate text-2xs text-ink-3">Demo · {user.roleLabel}</span>
         </span>
       </button>
 
@@ -423,6 +424,16 @@ function UserMenu() {
           <div className="border-t border-line pt-1">
             <button
               type="button"
+              onClick={() => {
+                setOpen(false);
+                navigate('/login/profile?switch=1');
+              }}
+              className={item}
+            >
+              <Repeat className="h-4 w-4" /> Switch demo profile
+            </button>
+            <button
+              type="button"
               onClick={async () => {
                 setOpen(false);
                 await signOut();
@@ -430,7 +441,7 @@ function UserMenu() {
               }}
               className={item}
             >
-              <LogOut className="h-4 w-4" /> Sign out or switch profile
+              <LogOut className="h-4 w-4" /> Sign out
             </button>
           </div>
         </div>

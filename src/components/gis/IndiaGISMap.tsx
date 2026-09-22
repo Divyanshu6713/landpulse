@@ -137,6 +137,7 @@ export function IndiaGISMap({
   const [layers, setLayers] = useState({ choropleth: true, districts: true, markers: true, clusters: true, parcels: true });
   const [layersOpen, setLayersOpen] = useState(false);
   const drag = useRef<{ x: number; y: number; view: View; moved: boolean } | null>(null);
+  const [reducedMotion] = useState(() => window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   useEffect(() => {
     const el = wrap.current;
@@ -264,7 +265,10 @@ export function IndiaGISMap({
   return (
     <div
       ref={wrap}
-      className={cn('relative w-full touch-none select-none overflow-hidden rounded-xl border border-line bg-[rgb(var(--c-surface-2))]', className)}
+      className={cn(
+        'relative w-full touch-none select-none overflow-hidden rounded-xl border border-line bg-gradient-to-br from-[rgb(var(--c-surface))] via-[rgb(var(--c-surface-2))] to-[rgb(var(--c-surface-3))]',
+        className,
+      )}
       style={{ height }}
       onWheel={onWheel}
       onPointerDown={onPointerDown}
@@ -276,6 +280,19 @@ export function IndiaGISMap({
       }}
     >
       <svg width="100%" height="100%" preserveAspectRatio="none" viewBox={`${view.x} ${view.y} ${view.w} ${view.h}`} className={cn('block', drag.current?.moved ? 'cursor-grabbing' : 'cursor-grab')} role="img" aria-label="Map of India with acquisition project risk">
+        <defs>
+          {/* A soft top-left highlight over every state's flat choropleth fill, for a gently raised feel. */}
+          <linearGradient id="map-soft-light" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stopColor="#ffffff" stopOpacity={0.22} />
+            <stop offset="55%" stopColor="#ffffff" stopOpacity={0.04} />
+            <stop offset="100%" stopColor="#ffffff" stopOpacity={0} />
+          </linearGradient>
+          {/* Elevation cue for the hovered/selected state only — offsets are in the same scaled units as strokeWidth, so the lift reads consistently at any zoom level. */}
+          <filter id="map-state-lift" x="-40%" y="-40%" width="180%" height="180%">
+            <feDropShadow dx={stroke(1.5)} dy={stroke(2.5)} stdDeviation={stroke(2.5)} floodColor="rgb(15,23,42)" floodOpacity="0.25" />
+          </filter>
+        </defs>
+
         {/* national boundary */}
         {outlinePath && <path d={outlinePath} fill="rgb(var(--c-surface))" stroke="rgb(var(--c-ink-2))" strokeWidth={stroke(1.6)} strokeLinejoin="round" />}
 
@@ -284,21 +301,24 @@ export function IndiaGISMap({
           const name = f.properties.state;
           const stat = stateStats?.get(name);
           const isSel = selectedState === name;
+          const isHover = hover?.kind === 'state' && hover.label === name;
           const dim = Boolean(selectedState && !isSel);
           return (
-            <path
-              key={name}
-              d={d}
-              fill={layers.choropleth && stat ? riskFill(stat.avgRisk, isSel ? 0.12 : 0.28) : 'transparent'}
-              fillOpacity={dim ? 0.35 : 1}
-              stroke={isSel ? 'rgb(var(--c-brand))' : 'rgb(var(--c-line-strong))'}
-              strokeWidth={stroke(isSel ? 1.8 : 0.8)}
-              strokeLinejoin="round"
-              className={cn(onSelectState && 'cursor-pointer transition-[fill-opacity] hover:fill-opacity-70')}
-              onPointerMove={(e) => hoverAt(e, 'state', name, stat ? `${stat.projects} project${stat.projects === 1 ? '' : 's'} · mean risk ${stat.avgRisk}%` : 'No projects in view')}
-              onPointerLeave={() => setHover(null)}
-              onClick={() => clickable() && onSelectState?.(isSel ? null : name)}
-            />
+            <g key={name} filter={(isHover || isSel) && !reducedMotion ? 'url(#map-state-lift)' : undefined}>
+              <path
+                d={d}
+                fill={layers.choropleth && stat ? riskFill(stat.avgRisk, isSel ? 0.12 : 0.28) : 'transparent'}
+                fillOpacity={dim ? 0.35 : 1}
+                stroke={isSel ? 'rgb(var(--c-brand))' : 'rgb(var(--c-line-strong))'}
+                strokeWidth={stroke(isSel ? 1.8 : isHover ? 1.3 : 0.8)}
+                strokeLinejoin="round"
+                className={cn(onSelectState && 'cursor-pointer transition-[fill-opacity,stroke-width] duration-150 hover:fill-opacity-70')}
+                onPointerMove={(e) => hoverAt(e, 'state', name, stat ? `${stat.projects} project${stat.projects === 1 ? '' : 's'} · mean risk ${stat.avgRisk}%` : 'No projects in view')}
+                onPointerLeave={() => setHover(null)}
+                onClick={() => clickable() && onSelectState?.(isSel ? null : name)}
+              />
+              {layers.choropleth && stat && <path d={d} fill="url(#map-soft-light)" fillOpacity={dim ? 0.35 : 1} pointerEvents="none" />}
+            </g>
           );
         })}
 

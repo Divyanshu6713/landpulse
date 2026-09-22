@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
-import { fetchProfile, getToken, login as apiLogin, loginWithPosition, logout as apiLogout, onUnauthorized, setToken } from '@/api/client';
+import { fetchProfile, getToken, login as apiLogin, loginWithPosition, logout as apiLogout, onUnauthorized, setToken, suppressUnauthorizedOnce } from '@/api/client';
 import type { Profile, RoleId, User } from '@/data/types';
+import { markSessionExpired } from './demoSession';
 
 interface AuthState {
   user: User | null;
@@ -47,6 +48,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const off = onUnauthorized(() => {
+      if (getToken()) markSessionExpired();
       setToken(null);
       setProfile(null);
     });
@@ -56,13 +58,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const signIn = useCallback(async (userId: string, password: string) => {
-    const { token, downloadToken } = await apiLogin(userId, password);
+    const { token, downloadToken } = await suppressUnauthorizedOnce(() => apiLogin(userId, password));
     setToken(token, downloadToken);
     setNonce((n) => n + 1);
   }, []);
 
   const signInWithPosition = useCallback(async (role: RoleId, position: { orgId: string; units: Record<string, string | undefined> }, password: string) => {
-    const { token, downloadToken } = await loginWithPosition(role, position, password);
+    const { token, downloadToken } = await suppressUnauthorizedOnce(() => loginWithPosition(role, position, password));
     setToken(token, downloadToken);
     setNonce((n) => n + 1);
   }, []);

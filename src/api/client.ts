@@ -104,6 +104,20 @@ export const onUnauthorized = (fn: () => void) => {
   return () => unauthorizedListeners.delete(fn);
 };
 
+/**
+ * A deliberate sign-in attempt (e.g. switching demo profile while already
+ * signed in) can itself 401 on a wrong password. That must surface as an
+ * inline error, not the global "your session ended" side effect, which
+ * would otherwise sign the user out of their still-valid current session.
+ */
+let suppressUnauthorized = 0;
+export function suppressUnauthorizedOnce<T>(fn: () => Promise<T>): Promise<T> {
+  suppressUnauthorized++;
+  return fn().finally(() => {
+    suppressUnauthorized--;
+  });
+}
+
 export const getToken = () => token;
 export function setToken(next: string | null, nextDownload: string | null = null) {
   token = next;
@@ -151,7 +165,7 @@ async function request<T>(method: string, path: string, { params, body, raw, sig
     } catch {
       /* non-JSON error body */
     }
-    if (res.status === 401) unauthorizedListeners.forEach((fn) => fn());
+    if (res.status === 401 && !suppressUnauthorized) unauthorizedListeners.forEach((fn) => fn());
     throw new ApiError(detail, res.status, details);
   }
   return (await res.json()) as T;

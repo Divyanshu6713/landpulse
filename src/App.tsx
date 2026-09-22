@@ -8,6 +8,7 @@ import { PortalProvider } from '@/components/transition/Portal';
 import { Button, Card, EmptyState, PageSkeleton } from '@/components/ui';
 import Landing from '@/pages/Landing';
 import Login from '@/pages/Login';
+import LoginProfile from '@/pages/LoginProfile';
 import { EXPERIENCE_HOME, applyViewParam, homePath } from '@/lib/homeView';
 
 // "/" opens the standard homepage by default; the immersive 3D experience ("Explore in 3D", /experience) loads on its own,
@@ -173,6 +174,7 @@ export default function App() {
             }
           />
           <Route path="/login" element={<Login />} />
+          <Route path="/login/profile" element={<LoginProfile />} />
           <Route path="/*" element={<Shell />} />
         </Routes>
         </PortalProvider>

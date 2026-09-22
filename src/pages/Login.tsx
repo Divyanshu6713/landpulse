@@ -10,12 +10,18 @@ import { fetchDemoUsers, fetchHierarchy, fetchHierarchyOptions } from '@/api/cli
 import { BRAND } from '@/lib/brand';
 import { PortalLink, usePortal } from '@/components/transition/Portal';
 import { EXPERIENCE_HOME, homePath } from '@/lib/homeView';
+import { consumeSessionExpired, setDemoPassword } from '@/auth/demoSession';
 
 // The 3D band is decorative and lazy, so the sign-in form never waits for three.js.
 const LoginHero = lazy(() => import('@/cinematic/LoginHero'));
 import type { AuthorityTier, HierarchyConfig, RoleId, User } from '@/data/types';
 
 type Mode = 'directory' | 'configure';
+
+/** The default demo password (see server/lib/security.mjs); a deployment that overrides it via env just makes this prefill wrong, same as the existing hint text below. */
+const DEMO_PASSWORD = 'LandPulse@2026';
+const DEMO_ACCOUNT_ID = 'u-national';
+const DEMO_ACCOUNT_LABEL = 'National Administrator';
 
 const TIER_FILTERS: Array<{ id: 'all' | AuthorityTier; label: string }> = [
   { id: 'all', label: 'All levels' },
@@ -37,6 +43,8 @@ export default function Login() {
   const { user } = useAuth();
   const [params] = useSearchParams();
   const [mode, setMode] = useState<Mode>((params.get('mode') as Mode) === 'configure' ? 'configure' : 'directory');
+  // A deep link to ?mode=... goes straight to the advanced form; everyone else starts simple.
+  const [view, setView] = useState<'simple' | 'advanced'>(params.get('mode') ? 'advanced' : 'simple');
   const next = params.get('next') || '/dashboard';
   const [password, setPassword] = useState('');
   const [reveal, setReveal] = useState(false);
@@ -48,6 +56,7 @@ export default function Login() {
   const signedInOnArrival = useRef(!!user);
   // The logo returns to whichever homepage the visitor came from (standard or 3D).
   const home = useMemo(homePath, []);
+  const expiredNotice = useMemo(consumeSessionExpired, []);
 
   if (user && signedInOnArrival.current) return <Navigate to={next} replace />;
 
@@ -68,91 +77,102 @@ export default function Login() {
             </PortalLink>
             <DemoDataBadge />
           </div>
-          <div className="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:px-6 sm:pb-14 sm:pt-14">
-            <p className="font-mono text-2xs uppercase tracking-[0.16em] text-[#72b8c8]">{BRAND.product} · sign in</p>
-            <h1 className="mt-3 font-grotesk text-5xl font-semibold tracking-tight text-white">Sign in</h1>
-            <p className="mt-3 max-w-2xl text-md text-[#c3ced6]">
-              Your administrative position decides what you see — a national authority sees every State and UT, a district officer sees their district. The API enforces the
-              same scope.
-            </p>
-          </div>
+          {view === 'simple' ? (
+            <div className="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:px-6 sm:pb-14 sm:pt-14">
+              <p className="font-mono text-2xs uppercase tracking-[0.16em] text-[#72b8c8]">Welcome to {BRAND.product}</p>
+              <h1 className="mt-3 font-grotesk text-5xl font-semibold tracking-tight text-white">Predictive intelligence for proactive land acquisition monitoring.</h1>
+            </div>
+          ) : (
+            <div className="mx-auto max-w-6xl px-4 pb-10 pt-10 sm:px-6 sm:pb-14 sm:pt-14">
+              <p className="font-mono text-2xs uppercase tracking-[0.16em] text-[#72b8c8]">{BRAND.product} · sign in</p>
+              <h1 className="mt-3 font-grotesk text-5xl font-semibold tracking-tight text-white">Sign in</h1>
+              <p className="mt-3 max-w-2xl text-md text-[#c3ced6]">
+                Your administrative position decides what you see — a national authority sees every State and UT, a district officer sees their district. The API enforces the
+                same scope.
+              </p>
+            </div>
+          )}
         </LoginHero>
       </Suspense>
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6 sm:py-10">
-        <ol className="space-y-8">
-          <li>
-            <StepHeading n={1} title="Enter your password" />
-            <div className="mt-3 max-w-md">
-              <label htmlFor="login-password" className="sr-only">
-                Password
-              </label>
-              <div className="relative">
-                <input
-                  id="login-password"
-                  ref={passwordInput}
-                  type={reveal ? 'text' : 'password'}
-                  autoComplete="current-password"
-                  value={password}
-                  onChange={(e) => {
-                    setPassword(e.target.value);
-                    if (e.target.value) setNeedPassword(false);
-                  }}
-                  aria-invalid={needPassword || undefined}
-                  aria-describedby="login-password-help"
-                  placeholder="Password"
-                  className={cn('input h-10 pr-10', needPassword && 'border-red-500 focus:border-red-500 focus:ring-red-500/15')}
-                />
-                <button type="button" onClick={() => setReveal((r) => !r)} aria-label={reveal ? 'Hide password' : 'Show password'} className="absolute right-1 top-1/2 grid h-8 w-8 -translate-y-1/2 place-items-center rounded-md text-ink-3 hover:text-ink focus-ring">
-                  {reveal ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
-                </button>
-              </div>
-              <div id="login-password-help" className="mt-1.5">
-                {needPassword ? (
-                  <p role="alert" className="flex items-center gap-1.5 text-sm text-red-700 dark:text-red-300">
-                    <TriangleAlert className="h-3.5 w-3.5" /> Enter your password before choosing a profile.
-                  </p>
-                ) : (
-                  <button type="button" onClick={() => setShowHint((v) => !v)} aria-expanded={showHint} className="text-sm font-medium text-brand hover:underline">
-                    {showHint ? 'Hide demo access details' : 'Using the demo deployment?'}
+        {view === 'simple' ? (
+          <SimpleSignIn next={next} expiredNotice={expiredNotice} onUseAnother={() => setView('advanced')} />
+        ) : (
+          <ol className="space-y-8">
+            <li>
+              <StepHeading n={1} title="Enter your password" />
+              <div className="mt-3 max-w-md">
+                <label htmlFor="login-password" className="sr-only">
+                  Password
+                </label>
+                <div className="relative">
+                  <input
+                    id="login-password"
+                    ref={passwordInput}
+                    type={reveal ? 'text' : 'password'}
+                    autoComplete="current-password"
+                    value={password}
+                    onChange={(e) => {
+                      setPassword(e.target.value);
+                      if (e.target.value) setNeedPassword(false);
+                    }}
+                    aria-invalid={needPassword || undefined}
+                    aria-describedby="login-password-help"
+                    placeholder="Password"
+                    className={cn('input h-10 pr-10', needPassword && 'border-red-500 focus:border-red-500 focus:ring-red-500/15')}
+                  />
+                  <button type="button" onClick={() => setReveal((r) => !r)} aria-label={reveal ? 'Hide password' : 'Show password'} className="absolute right-1 top-1/2 grid h-8 w-8 -translate-y-1/2 place-items-center rounded-md text-ink-3 hover:text-ink focus-ring">
+                    {reveal ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
                   </button>
+                </div>
+                <div id="login-password-help" className="mt-1.5">
+                  {needPassword ? (
+                    <p role="alert" className="flex items-center gap-1.5 text-sm text-red-700 dark:text-red-300">
+                      <TriangleAlert className="h-3.5 w-3.5" /> Enter your password before choosing a profile.
+                    </p>
+                  ) : (
+                    <button type="button" onClick={() => setShowHint((v) => !v)} aria-expanded={showHint} className="text-sm font-medium text-brand hover:underline">
+                      {showHint ? 'Hide demo access details' : 'Using the demo deployment?'}
+                    </button>
+                  )}
+                </div>
+                {showHint && (
+                  <div className="mt-3 flex gap-2.5 rounded-lg border border-line bg-surface px-3.5 py-3 text-sm text-ink-2">
+                    <Info className="mt-0.5 h-4 w-4 shrink-0 text-ink-3" />
+                    <p>
+                      Every directory profile starts on the shared demo password <code className="rounded bg-surface-3 px-1.5 py-0.5 font-mono text-xs text-ink">LandPulse@2026</code> and can set its
+                      own from My profile. Five wrong attempts lock a profile for five minutes; sessions expire after 60 idle minutes.
+                    </p>
+                  </div>
                 )}
               </div>
-              {showHint && (
-                <div className="mt-3 flex gap-2.5 rounded-lg border border-line bg-surface px-3.5 py-3 text-sm text-ink-2">
-                  <Info className="mt-0.5 h-4 w-4 shrink-0 text-ink-3" />
-                  <p>
-                    Every directory profile starts on the shared demo password <code className="rounded bg-surface-3 px-1.5 py-0.5 font-mono text-xs text-ink">LandPulse@2026</code> and can set its
-                    own from My profile. Five wrong attempts lock a profile for five minutes; sessions expire after 60 idle minutes.
-                  </p>
-                </div>
-              )}
-            </div>
-          </li>
+            </li>
 
-          <li>
-            <StepHeading n={2} title="Choose who you are signing in as" />
-            <div className="mt-3 inline-flex rounded-lg bg-surface-3 p-0.5" role="tablist" aria-label="Sign-in method">
-              {(
-                [
-                  ['directory', 'Directory profiles', Users],
-                  ['configure', 'Configure a position', SlidersHorizontal],
-                ] as const
-              ).map(([id, label, Icon]) => (
-                <button
-                  key={id}
-                  type="button"
-                  role="tab"
-                  aria-selected={mode === id}
-                  onClick={() => setMode(id)}
-                  className={cn('flex h-8 items-center gap-2 rounded-md px-3 text-sm font-medium transition-colors focus-ring', mode === id ? 'bg-surface text-ink shadow-xs' : 'text-ink-3 hover:text-ink')}
-                >
-                  <Icon className="h-4 w-4" /> {label}
-                </button>
-              ))}
-            </div>
-            <div className="mt-5">{mode === 'directory' ? <Directory next={next} password={password} requirePassword={requirePassword} /> : <Configure next={next} password={password} requirePassword={requirePassword} />}</div>
-          </li>
-        </ol>
+            <li>
+              <StepHeading n={2} title="Choose who you are signing in as" />
+              <div className="mt-3 inline-flex rounded-lg bg-surface-3 p-0.5" role="tablist" aria-label="Sign-in method">
+                {(
+                  [
+                    ['directory', 'Directory profiles', Users],
+                    ['configure', 'Configure a position', SlidersHorizontal],
+                  ] as const
+                ).map(([id, label, Icon]) => (
+                  <button
+                    key={id}
+                    type="button"
+                    role="tab"
+                    aria-selected={mode === id}
+                    onClick={() => setMode(id)}
+                    className={cn('flex h-8 items-center gap-2 rounded-md px-3 text-sm font-medium transition-colors focus-ring', mode === id ? 'bg-surface text-ink shadow-xs' : 'text-ink-3 hover:text-ink')}
+                  >
+                    <Icon className="h-4 w-4" /> {label}
+                  </button>
+                ))}
+              </div>
+              <div className="mt-5">{mode === 'directory' ? <Directory next={next} password={password} requirePassword={requirePassword} /> : <Configure next={next} password={password} requirePassword={requirePassword} />}</div>
+            </li>
+          </ol>
+        )}
       </main>
 
       <footer className="border-t border-line">
@@ -163,6 +183,78 @@ export default function Login() {
           </p>
         </div>
       </footer>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------ simple sign-in */
+
+function SimpleSignIn({ next, expiredNotice, onUseAnother }: { next: string; expiredNotice: boolean; onUseAnother: () => void }) {
+  const { signIn } = useAuth();
+  const { go } = usePortal();
+  const [password, setPassword] = useState(DEMO_PASSWORD);
+  const [reveal, setReveal] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const enterDemo = async () => {
+    setBusy(true);
+    setError(null);
+    try {
+      await signIn(DEMO_ACCOUNT_ID, password);
+      setDemoPassword(password);
+      go(next === '/dashboard' ? '/login/profile' : `/login/profile?next=${encodeURIComponent(next)}`, 'dive');
+    } catch (err) {
+      setError((err as Error).message);
+      setBusy(false);
+    }
+  };
+
+  return (
+    <div className="mx-auto max-w-md">
+      {expiredNotice && (
+        <p className="mb-4 flex items-center gap-1.5 rounded-lg border border-line bg-surface px-3.5 py-2.5 text-sm text-ink-2">
+          <Info className="h-4 w-4 shrink-0 text-ink-3" /> Your demo session ended — sign in again.
+        </p>
+      )}
+      <div className="card p-6">
+        <p className="text-sm text-ink-2">
+          You'll start as <span className="font-medium text-ink">{DEMO_ACCOUNT_LABEL}</span> — you'll choose a different perspective next.
+        </p>
+
+        <div className="mt-5">
+          <label htmlFor="demo-password" className="mb-1.5 block text-sm font-medium text-ink">
+            Password
+          </label>
+          <div className="relative">
+            <input
+              id="demo-password"
+              type={reveal ? 'text' : 'password'}
+              autoComplete="current-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="input h-11 pr-10"
+            />
+            <button type="button" onClick={() => setReveal((r) => !r)} aria-label={reveal ? 'Hide password' : 'Show password'} className="absolute right-1 top-1/2 grid h-9 w-9 -translate-y-1/2 place-items-center rounded-md text-ink-3 hover:text-ink focus-ring">
+              {reveal ? <EyeOff className="h-4 w-4" /> : <Eye className="h-4 w-4" />}
+            </button>
+          </div>
+        </div>
+
+        {error && (
+          <p role="alert" className="mt-3 flex items-start gap-1.5 text-sm text-red-700 dark:text-red-300">
+            <TriangleAlert className="mt-0.5 h-3.5 w-3.5 shrink-0" /> {error}
+          </p>
+        )}
+
+        <Button className="mt-5 w-full" size="lg" loading={busy} onClick={enterDemo}>
+          {!busy && <ArrowRight className="h-4 w-4" />} Enter Demo
+        </Button>
+      </div>
+
+      <button type="button" onClick={onUseAnother} className="mt-4 block w-full text-center text-sm font-medium text-ink-3 hover:text-ink hover:underline">
+        Use another account
+      </button>
     </div>
   );
 }
@@ -180,7 +272,7 @@ function StepHeading({ n, title }: { n: number; title: string }) {
 
 /* ---------------------------------------------------------------- directory */
 
-function Directory({ next, password, requirePassword }: { next: string; password: string; requirePassword: () => boolean }) {
+export function Directory({ next, password, requirePassword }: { next: string; password: string; requirePassword: () => boolean }) {
   const { signIn } = useAuth();
   const { go } = usePortal();
   const users = useApi((signal) => fetchDemoUsers(signal), []);
