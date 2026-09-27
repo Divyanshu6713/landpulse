@@ -291,7 +291,7 @@ computed in the API for any new record (a port of the reference algorithm, verif
 to 1e-7). A contribution explains a prediction; it is not a finding of cause.
 
 **Risk bands.** Case risk (one parcel's probability): Medium ≥ 0.3, High ≥ 0.55,
-Critical ≥ 0.78. Project risk is the expected share of open current-stage parcels that slip (the
+Critical ≥ 0.8. Project risk is the expected share of open current-stage parcels that slip (the
 mean case probability), with its own bands: Medium ≥ 0.3, High ≥ 0.45,
 Critical ≥ 0.6.
 

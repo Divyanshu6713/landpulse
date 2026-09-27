@@ -57,7 +57,7 @@ const surrogate = JSON.parse(fs.readFileSync(path.join(DATA, 'model', 'surrogate
 const datasetMeta = JSON.parse(fs.readFileSync(path.join(DATA, 'dataset-meta.json'), 'utf8'));
 const registryRaw = JSON.parse(fs.readFileSync(path.join(DATA, 'projects.raw.json'), 'utf8'));
 
-const BANDS = metrics.riskBands ?? surrogate.riskBands ?? { medium: 0.3, high: 0.55, critical: 0.78 };
+const BANDS = metrics.riskBands ?? surrogate.riskBands ?? { medium: 0.3, high: 0.55, critical: 0.8 };
 // Aggregates (project, stage, state) are a mean of case probabilities — the
 // expected share of open parcels that slip — so they use project-level bands.
 const PROJECT_BANDS = metrics.projectRiskBands ?? { medium: 0.3, high: 0.45, critical: 0.6 };

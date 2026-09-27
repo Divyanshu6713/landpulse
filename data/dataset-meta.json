@@ -1,6 +1,6 @@
 {
  "datasetName": "land_acquisition_synthetic_350k",
- "generatedAt": "2026-09-14T06:33:26.227Z",
+ "generatedAt": "2026-09-27T15:04:46.640Z",
  "snapshotDate": "2026-09-11",
  "records": 350000,
  "projects": 312,
@@ -25,8 +25,8 @@
   "riskBand": {
    "Low": 185459,
    "Medium": 59646,
-   "High": 46708,
-   "Critical": 58187
+   "High": 50744,
+   "Critical": 54151
   },
   "stage": {
    "Land Identification": 59843,

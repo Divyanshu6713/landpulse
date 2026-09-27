@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-14T06:33:26.200Z",
+ "generatedAt": "2026-09-27T15:04:46.517Z",
  "today": "2026-09-11",
  "projects": [
   {
@@ -418,8 +418,8 @@
    "truthRiskMix": {
     "Low": 320,
     "Medium": 134,
-    "High": 95,
-    "Critical": 220
+    "High": 108,
+    "Critical": 207
    },
    "dataSource": "synthetic"
   },
@@ -890,8 +890,8 @@
    "truthRiskMix": {
     "Low": 273,
     "Medium": 188,
-    "High": 195,
-    "Critical": 303
+    "High": 214,
+    "Critical": 284
    },
    "dataSource": "synthetic"
   },
@@ -1330,8 +1330,8 @@
    "truthRiskMix": {
     "Low": 52,
     "Medium": 25,
-    "High": 35,
-    "Critical": 55
+    "High": 37,
+    "Critical": 53
    },
    "dataSource": "synthetic"
   },
@@ -1750,8 +1750,8 @@
    "truthRiskMix": {
     "Low": 770,
     "Medium": 76,
-    "High": 35,
-    "Critical": 20
+    "High": 38,
+    "Critical": 17
    },
    "dataSource": "synthetic"
   },
@@ -2216,8 +2216,8 @@
    "truthRiskMix": {
     "Low": 898,
     "Medium": 195,
-    "High": 101,
-    "Critical": 36
+    "High": 105,
+    "Critical": 32
    },
    "dataSource": "synthetic"
   },
@@ -2666,8 +2666,8 @@
    "truthRiskMix": {
     "Low": 336,
     "Medium": 81,
-    "High": 50,
-    "Critical": 54
+    "High": 51,
+    "Critical": 53
    },
    "dataSource": "synthetic"
   },
@@ -3135,8 +3135,8 @@
    "truthRiskMix": {
     "Low": 669,
     "Medium": 142,
-    "High": 112,
-    "Critical": 110
+    "High": 120,
+    "Critical": 102
    },
    "dataSource": "synthetic"
   },
@@ -3587,8 +3587,8 @@
    "truthRiskMix": {
     "Low": 359,
     "Medium": 99,
-    "High": 83,
-    "Critical": 80
+    "High": 89,
+    "Critical": 74
    },
    "dataSource": "synthetic"
   },
@@ -4042,8 +4042,8 @@
    "truthRiskMix": {
     "Low": 534,
     "Medium": 206,
-    "High": 209,
-    "Critical": 287
+    "High": 224,
+    "Critical": 272
    },
    "dataSource": "synthetic"
   },
@@ -4499,8 +4499,8 @@
    "truthRiskMix": {
     "Low": 428,
     "Medium": 258,
-    "High": 310,
-    "Critical": 617
+    "High": 339,
+    "Critical": 588
    },
    "dataSource": "synthetic"
   },
@@ -4939,8 +4939,8 @@
    "truthRiskMix": {
     "Low": 244,
     "Medium": 73,
-    "High": 67,
-    "Critical": 66
+    "High": 73,
+    "Critical": 60
    },
    "dataSource": "synthetic"
   },
@@ -5380,8 +5380,8 @@
    "truthRiskMix": {
     "Low": 108,
     "Medium": 31,
-    "High": 42,
-    "Critical": 49
+    "High": 46,
+    "Critical": 45
    },
    "dataSource": "synthetic"
   },
@@ -5818,8 +5818,8 @@
    "truthRiskMix": {
     "Low": 231,
     "Medium": 113,
-    "High": 122,
-    "Critical": 178
+    "High": 131,
+    "Critical": 169
    },
    "dataSource": "synthetic"
   },
@@ -6274,8 +6274,8 @@
    "truthRiskMix": {
     "Low": 329,
     "Medium": 66,
-    "High": 25,
-    "Critical": 15
+    "High": 27,
+    "Critical": 13
    },
    "dataSource": "synthetic"
   },
@@ -6726,8 +6726,8 @@
    "truthRiskMix": {
     "Low": 286,
     "Medium": 128,
-    "High": 89,
-    "Critical": 141
+    "High": 98,
+    "Critical": 132
    },
    "dataSource": "synthetic"
   },
@@ -7184,8 +7184,8 @@
    "truthRiskMix": {
     "Low": 115,
     "Medium": 65,
-    "High": 63,
-    "Critical": 104
+    "High": 64,
+    "Critical": 103
    },
    "dataSource": "synthetic"
   },
@@ -7641,8 +7641,8 @@
    "truthRiskMix": {
     "Low": 173,
     "Medium": 78,
-    "High": 79,
-    "Critical": 113
+    "High": 90,
+    "Critical": 102
    },
    "dataSource": "synthetic"
   },
@@ -8094,8 +8094,8 @@
    "truthRiskMix": {
     "Low": 578,
     "Medium": 222,
-    "High": 146,
-    "Critical": 188
+    "High": 156,
+    "Critical": 178
    },
    "dataSource": "synthetic"
   },
@@ -8544,8 +8544,8 @@
    "truthRiskMix": {
     "Low": 102,
     "Medium": 52,
-    "High": 48,
-    "Critical": 63
+    "High": 49,
+    "Critical": 62
    },
    "dataSource": "synthetic"
   },
@@ -9024,8 +9024,8 @@
    "truthRiskMix": {
     "Low": 1028,
     "Medium": 379,
-    "High": 250,
-    "Critical": 170
+    "High": 262,
+    "Critical": 158
    },
    "dataSource": "synthetic"
   },
@@ -9536,8 +9536,8 @@
    "truthRiskMix": {
     "Low": 266,
     "Medium": 155,
-    "High": 160,
-    "Critical": 295
+    "High": 181,
+    "Critical": 274
    },
    "dataSource": "synthetic"
   },
@@ -9974,8 +9974,8 @@
    "truthRiskMix": {
     "Low": 480,
     "Medium": 203,
-    "High": 197,
-    "Critical": 273
+    "High": 211,
+    "Critical": 259
    },
    "dataSource": "synthetic"
   },
@@ -10415,8 +10415,8 @@
    "truthRiskMix": {
     "Low": 733,
     "Medium": 242,
-    "High": 188,
-    "Critical": 236
+    "High": 204,
+    "Critical": 220
    },
    "dataSource": "synthetic"
   },
@@ -10822,8 +10822,8 @@
    "truthRiskMix": {
     "Low": 95,
     "Medium": 33,
-    "High": 14,
-    "Critical": 18
+    "High": 16,
+    "Critical": 16
    },
    "dataSource": "synthetic"
   },
@@ -11260,8 +11260,8 @@
    "truthRiskMix": {
     "Low": 846,
     "Medium": 278,
-    "High": 218,
-    "Critical": 252
+    "High": 236,
+    "Critical": 234
    },
    "dataSource": "synthetic"
   },
@@ -11697,8 +11697,8 @@
    "truthRiskMix": {
     "Low": 244,
     "Medium": 69,
-    "High": 47,
-    "Critical": 30
+    "High": 51,
+    "Critical": 26
    },
    "dataSource": "synthetic"
   },
@@ -12156,8 +12156,8 @@
    "truthRiskMix": {
     "Low": 307,
     "Medium": 109,
-    "High": 61,
-    "Critical": 59
+    "High": 66,
+    "Critical": 54
    },
    "dataSource": "synthetic"
   },
@@ -12593,8 +12593,8 @@
    "truthRiskMix": {
     "Low": 79,
     "Medium": 38,
-    "High": 42,
-    "Critical": 46
+    "High": 43,
+    "Critical": 45
    },
    "dataSource": "synthetic"
   },
@@ -12987,8 +12987,8 @@
    "truthRiskMix": {
     "Low": 1889,
     "Medium": 419,
-    "High": 278,
-    "Critical": 214
+    "High": 310,
+    "Critical": 182
    },
    "dataSource": "synthetic"
   },
@@ -13442,8 +13442,8 @@
    "truthRiskMix": {
     "Low": 543,
     "Medium": 157,
-    "High": 133,
-    "Critical": 160
+    "High": 138,
+    "Critical": 155
    },
    "dataSource": "synthetic"
   },
@@ -14351,8 +14351,8 @@
    "truthRiskMix": {
     "Low": 682,
     "Medium": 315,
-    "High": 253,
-    "Critical": 314
+    "High": 270,
+    "Critical": 297
    },
    "dataSource": "synthetic"
   },
@@ -14809,8 +14809,8 @@
    "truthRiskMix": {
     "Low": 550,
     "Medium": 267,
-    "High": 257,
-    "Critical": 325
+    "High": 279,
+    "Critical": 303
    },
    "dataSource": "synthetic"
   },
@@ -15232,8 +15232,8 @@
    "truthRiskMix": {
     "Low": 509,
     "Medium": 68,
-    "High": 41,
-    "Critical": 31
+    "High": 45,
+    "Critical": 27
    },
    "dataSource": "synthetic"
   },
@@ -15670,8 +15670,8 @@
    "truthRiskMix": {
     "Low": 3308,
     "Medium": 841,
-    "High": 585,
-    "Critical": 625
+    "High": 645,
+    "Critical": 565
    },
    "dataSource": "synthetic"
   },
@@ -16577,8 +16577,8 @@
    "truthRiskMix": {
     "Low": 426,
     "Medium": 237,
-    "High": 254,
-    "Critical": 510
+    "High": 288,
+    "Critical": 476
    },
    "dataSource": "synthetic"
   },
@@ -16982,8 +16982,8 @@
    "truthRiskMix": {
     "Low": 554,
     "Medium": 143,
-    "High": 75,
-    "Critical": 69
+    "High": 81,
+    "Critical": 63
    },
    "dataSource": "synthetic"
   },
@@ -17441,8 +17441,8 @@
    "truthRiskMix": {
     "Low": 179,
     "Medium": 90,
-    "High": 92,
-    "Critical": 142
+    "High": 111,
+    "Critical": 123
    },
    "dataSource": "synthetic"
   },
@@ -17899,8 +17899,8 @@
    "truthRiskMix": {
     "Low": 214,
     "Medium": 69,
-    "High": 40,
-    "Critical": 26
+    "High": 45,
+    "Critical": 21
    },
    "dataSource": "synthetic"
   },
@@ -18334,8 +18334,8 @@
    "truthRiskMix": {
     "Low": 1297,
     "Medium": 339,
-    "High": 260,
-    "Critical": 167
+    "High": 274,
+    "Critical": 153
    },
    "dataSource": "synthetic"
   },
@@ -18808,8 +18808,8 @@
    "truthRiskMix": {
     "Low": 643,
     "Medium": 343,
-    "High": 305,
-    "Critical": 404
+    "High": 335,
+    "Critical": 374
    },
    "dataSource": "synthetic"
   },
@@ -19258,8 +19258,8 @@
    "truthRiskMix": {
     "Low": 427,
     "Medium": 178,
-    "High": 158,
-    "Critical": 268
+    "High": 173,
+    "Critical": 253
    },
    "dataSource": "synthetic"
   },
@@ -19678,8 +19678,8 @@
    "truthRiskMix": {
     "Low": 485,
     "Medium": 93,
-    "High": 55,
-    "Critical": 37
+    "High": 60,
+    "Critical": 32
    },
    "dataSource": "synthetic"
   },
@@ -20129,8 +20129,8 @@
    "truthRiskMix": {
     "Low": 1034,
     "Medium": 343,
-    "High": 272,
-    "Critical": 350
+    "High": 298,
+    "Critical": 324
    },
    "dataSource": "synthetic"
   },
@@ -20624,8 +20624,8 @@
    "truthRiskMix": {
     "Low": 677,
     "Medium": 273,
-    "High": 217,
-    "Critical": 265
+    "High": 242,
+    "Critical": 240
    },
    "dataSource": "synthetic"
   },
@@ -21082,8 +21082,8 @@
    "truthRiskMix": {
     "Low": 359,
     "Medium": 103,
-    "High": 81,
-    "Critical": 92
+    "High": 91,
+    "Critical": 82
    },
    "dataSource": "synthetic"
   },
@@ -21548,8 +21548,8 @@
    "truthRiskMix": {
     "Low": 220,
     "Medium": 191,
-    "High": 240,
-    "Critical": 494
+    "High": 266,
+    "Critical": 468
    },
    "dataSource": "synthetic"
   },
@@ -21984,8 +21984,8 @@
    "truthRiskMix": {
     "Low": 223,
     "Medium": 118,
-    "High": 103,
-    "Critical": 103
+    "High": 110,
+    "Critical": 96
    },
    "dataSource": "synthetic"
   },
@@ -22440,8 +22440,8 @@
    "truthRiskMix": {
     "Low": 453,
     "Medium": 235,
-    "High": 190,
-    "Critical": 247
+    "High": 200,
+    "Critical": 237
    },
    "dataSource": "synthetic"
   },
@@ -22895,8 +22895,8 @@
    "truthRiskMix": {
     "Low": 592,
     "Medium": 143,
-    "High": 92,
-    "Critical": 78
+    "High": 98,
+    "Critical": 72
    },
    "dataSource": "synthetic"
   },
@@ -23340,8 +23340,8 @@
    "truthRiskMix": {
     "Low": 904,
     "Medium": 294,
-    "High": 241,
-    "Critical": 280
+    "High": 258,
+    "Critical": 263
    },
    "dataSource": "synthetic"
   },
@@ -23823,8 +23823,8 @@
    "truthRiskMix": {
     "Low": 150,
     "Medium": 79,
-    "High": 50,
-    "Critical": 79
+    "High": 54,
+    "Critical": 75
    },
    "dataSource": "synthetic"
   },
@@ -24735,8 +24735,8 @@
    "truthRiskMix": {
     "Low": 422,
     "Medium": 142,
-    "High": 127,
-    "Critical": 107
+    "High": 133,
+    "Critical": 101
    },
    "dataSource": "synthetic"
   },
@@ -25185,8 +25185,8 @@
    "truthRiskMix": {
     "Low": 586,
     "Medium": 227,
-    "High": 203,
-    "Critical": 248
+    "High": 218,
+    "Critical": 233
    },
    "dataSource": "synthetic"
   },
@@ -25605,8 +25605,8 @@
    "truthRiskMix": {
     "Low": 418,
     "Medium": 172,
-    "High": 160,
-    "Critical": 232
+    "High": 183,
+    "Critical": 209
    },
    "dataSource": "synthetic"
   },
@@ -26042,8 +26042,8 @@
    "truthRiskMix": {
     "Low": 119,
     "Medium": 39,
-    "High": 45,
-    "Critical": 61
+    "High": 47,
+    "Critical": 59
    },
    "dataSource": "synthetic"
   },
@@ -26495,8 +26495,8 @@
    "truthRiskMix": {
     "Low": 693,
     "Medium": 319,
-    "High": 263,
-    "Critical": 306
+    "High": 279,
+    "Critical": 290
    },
    "dataSource": "synthetic"
   },
@@ -26945,8 +26945,8 @@
    "truthRiskMix": {
     "Low": 1672,
     "Medium": 563,
-    "High": 371,
-    "Critical": 333
+    "High": 404,
+    "Critical": 300
    },
    "dataSource": "synthetic"
   },
@@ -27400,8 +27400,8 @@
    "truthRiskMix": {
     "Low": 210,
     "Medium": 54,
-    "High": 40,
-    "Critical": 50
+    "High": 44,
+    "Critical": 46
    },
    "dataSource": "synthetic"
   },
@@ -27850,8 +27850,8 @@
    "truthRiskMix": {
     "Low": 173,
     "Medium": 61,
-    "High": 49,
-    "Critical": 57
+    "High": 52,
+    "Critical": 54
    },
    "dataSource": "synthetic"
   },
@@ -28319,8 +28319,8 @@
    "truthRiskMix": {
     "Low": 2630,
     "Medium": 1172,
-    "High": 954,
-    "Critical": 1015
+    "High": 1032,
+    "Critical": 937
    },
    "dataSource": "synthetic"
   },
@@ -28724,8 +28724,8 @@
    "truthRiskMix": {
     "Low": 301,
     "Medium": 57,
-    "High": 39,
-    "Critical": 21
+    "High": 40,
+    "Critical": 20
    },
    "dataSource": "synthetic"
   },
@@ -29160,8 +29160,8 @@
    "truthRiskMix": {
     "Low": 124,
     "Medium": 56,
-    "High": 57,
-    "Critical": 86
+    "High": 64,
+    "Critical": 79
    },
    "dataSource": "synthetic"
   },
@@ -29596,8 +29596,8 @@
    "truthRiskMix": {
     "Low": 306,
     "Medium": 66,
-    "High": 40,
-    "Critical": 36
+    "High": 42,
+    "Critical": 34
    },
    "dataSource": "synthetic"
   },
@@ -30046,8 +30046,8 @@
    "truthRiskMix": {
     "Low": 286,
     "Medium": 47,
-    "High": 26,
-    "Critical": 14
+    "High": 27,
+    "Critical": 13
    },
    "dataSource": "synthetic"
   },
@@ -30482,8 +30482,8 @@
    "truthRiskMix": {
     "Low": 57,
     "Medium": 39,
-    "High": 20,
-    "Critical": 26
+    "High": 22,
+    "Critical": 24
    },
    "dataSource": "synthetic"
   },
@@ -30948,8 +30948,8 @@
    "truthRiskMix": {
     "Low": 149,
     "Medium": 72,
-    "High": 79,
-    "Critical": 125
+    "High": 85,
+    "Critical": 119
    },
    "dataSource": "synthetic"
   },
@@ -31403,8 +31403,8 @@
    "truthRiskMix": {
     "Low": 112,
     "Medium": 27,
-    "High": 24,
-    "Critical": 25
+    "High": 25,
+    "Critical": 24
    },
    "dataSource": "synthetic"
   },
@@ -31871,8 +31871,8 @@
    "truthRiskMix": {
     "Low": 140,
     "Medium": 71,
-    "High": 55,
-    "Critical": 111
+    "High": 58,
+    "Critical": 108
    },
    "dataSource": "synthetic"
   },
@@ -32323,8 +32323,8 @@
    "truthRiskMix": {
     "Low": 505,
     "Medium": 109,
-    "High": 74,
-    "Critical": 67
+    "High": 76,
+    "Critical": 65
    },
    "dataSource": "synthetic"
   },
@@ -32761,8 +32761,8 @@
    "truthRiskMix": {
     "Low": 174,
     "Medium": 74,
-    "High": 59,
-    "Critical": 67
+    "High": 68,
+    "Critical": 58
    },
    "dataSource": "synthetic"
   },
@@ -33201,8 +33201,8 @@
    "truthRiskMix": {
     "Low": 1070,
     "Medium": 348,
-    "High": 263,
-    "Critical": 296
+    "High": 289,
+    "Critical": 270
    },
    "dataSource": "synthetic"
   },
@@ -33669,8 +33669,8 @@
    "truthRiskMix": {
     "Low": 666,
     "Medium": 104,
-    "High": 54,
-    "Critical": 39
+    "High": 58,
+    "Critical": 35
    },
    "dataSource": "synthetic"
   },
@@ -34119,8 +34119,8 @@
    "truthRiskMix": {
     "Low": 341,
     "Medium": 186,
-    "High": 205,
-    "Critical": 340
+    "High": 223,
+    "Critical": 322
    },
    "dataSource": "synthetic"
   },
@@ -34574,8 +34574,8 @@
    "truthRiskMix": {
     "Low": 64,
     "Medium": 34,
-    "High": 30,
-    "Critical": 46
+    "High": 33,
+    "Critical": 43
    },
    "dataSource": "synthetic"
   },
@@ -35056,8 +35056,8 @@
    "truthRiskMix": {
     "Low": 741,
     "Medium": 201,
-    "High": 155,
-    "Critical": 153
+    "High": 170,
+    "Critical": 138
    },
    "dataSource": "synthetic"
   },
@@ -35506,8 +35506,8 @@
    "truthRiskMix": {
     "Low": 296,
     "Medium": 122,
-    "High": 74,
-    "Critical": 51
+    "High": 78,
+    "Critical": 47
    },
    "dataSource": "synthetic"
   },
@@ -35963,8 +35963,8 @@
    "truthRiskMix": {
     "Low": 238,
     "Medium": 78,
-    "High": 52,
-    "Critical": 58
+    "High": 57,
+    "Critical": 53
    },
    "dataSource": "synthetic"
   },
@@ -36407,8 +36407,8 @@
    "truthRiskMix": {
     "Low": 1182,
     "Medium": 485,
-    "High": 436,
-    "Critical": 613
+    "High": 478,
+    "Critical": 571
    },
    "dataSource": "synthetic"
   },
@@ -36876,8 +36876,8 @@
    "truthRiskMix": {
     "Low": 2565,
     "Medium": 902,
-    "High": 694,
-    "Critical": 825
+    "High": 766,
+    "Critical": 753
    },
    "dataSource": "synthetic"
   },
@@ -37326,8 +37326,8 @@
    "truthRiskMix": {
     "Low": 176,
     "Medium": 103,
-    "High": 65,
-    "Critical": 82
+    "High": 73,
+    "Critical": 74
    },
    "dataSource": "synthetic"
   },
@@ -37776,8 +37776,8 @@
    "truthRiskMix": {
     "Low": 788,
     "Medium": 213,
-    "High": 145,
-    "Critical": 170
+    "High": 164,
+    "Critical": 151
    },
    "dataSource": "synthetic"
   },
@@ -38245,8 +38245,8 @@
    "truthRiskMix": {
     "Low": 629,
     "Medium": 168,
-    "High": 123,
-    "Critical": 106
+    "High": 132,
+    "Critical": 97
    },
    "dataSource": "synthetic"
   },
@@ -38681,8 +38681,8 @@
    "truthRiskMix": {
     "Low": 142,
     "Medium": 59,
-    "High": 56,
-    "Critical": 89
+    "High": 59,
+    "Critical": 86
    },
    "dataSource": "synthetic"
   },
@@ -39138,8 +39138,8 @@
    "truthRiskMix": {
     "Low": 274,
     "Medium": 124,
-    "High": 112,
-    "Critical": 187
+    "High": 120,
+    "Critical": 179
    },
    "dataSource": "synthetic"
   },
@@ -39588,8 +39588,8 @@
    "truthRiskMix": {
     "Low": 649,
     "Medium": 216,
-    "High": 161,
-    "Critical": 124
+    "High": 169,
+    "Critical": 116
    },
    "dataSource": "synthetic"
   },
@@ -40024,8 +40024,8 @@
    "truthRiskMix": {
     "Low": 465,
     "Medium": 160,
-    "High": 117,
-    "Critical": 125
+    "High": 125,
+    "Critical": 117
    },
    "dataSource": "synthetic"
   },
@@ -40476,8 +40476,8 @@
    "truthRiskMix": {
     "Low": 84,
     "Medium": 31,
-    "High": 21,
-    "Critical": 23
+    "High": 22,
+    "Critical": 22
    },
    "dataSource": "synthetic"
   },
@@ -40930,8 +40930,8 @@
    "truthRiskMix": {
     "Low": 702,
     "Medium": 280,
-    "High": 221,
-    "Critical": 173
+    "High": 233,
+    "Critical": 161
    },
    "dataSource": "synthetic"
   },
@@ -41390,8 +41390,8 @@
    "truthRiskMix": {
     "Low": 443,
     "Medium": 192,
-    "High": 193,
-    "Critical": 269
+    "High": 219,
+    "Critical": 243
    },
    "dataSource": "synthetic"
   },
@@ -41832,8 +41832,8 @@
    "truthRiskMix": {
     "Low": 1300,
     "Medium": 240,
-    "High": 122,
-    "Critical": 85
+    "High": 134,
+    "Critical": 73
    },
    "dataSource": "synthetic"
   },
@@ -42252,8 +42252,8 @@
    "truthRiskMix": {
     "Low": 1043,
     "Medium": 477,
-    "High": 362,
-    "Critical": 539
+    "High": 402,
+    "Critical": 499
    },
    "dataSource": "synthetic"
   },
@@ -42692,8 +42692,8 @@
    "truthRiskMix": {
     "Low": 850,
     "Medium": 295,
-    "High": 233,
-    "Critical": 297
+    "High": 244,
+    "Critical": 286
    },
    "dataSource": "synthetic"
   },
@@ -43143,8 +43143,8 @@
    "truthRiskMix": {
     "Low": 192,
     "Medium": 127,
-    "High": 110,
-    "Critical": 235
+    "High": 125,
+    "Critical": 220
    },
    "dataSource": "synthetic"
   },
@@ -43593,8 +43593,8 @@
    "truthRiskMix": {
     "Low": 429,
     "Medium": 312,
-    "High": 289,
-    "Critical": 661
+    "High": 314,
+    "Critical": 636
    },
    "dataSource": "synthetic"
   },
@@ -44043,8 +44043,8 @@
    "truthRiskMix": {
     "Low": 315,
     "Medium": 132,
-    "High": 108,
-    "Critical": 139
+    "High": 115,
+    "Critical": 132
    },
    "dataSource": "synthetic"
   },
@@ -44479,8 +44479,8 @@
    "truthRiskMix": {
     "Low": 200,
     "Medium": 43,
-    "High": 30,
-    "Critical": 13
+    "High": 31,
+    "Critical": 12
    },
    "dataSource": "synthetic"
   },
@@ -44929,8 +44929,8 @@
    "truthRiskMix": {
     "Low": 497,
     "Medium": 159,
-    "High": 120,
-    "Critical": 132
+    "High": 131,
+    "Critical": 121
    },
    "dataSource": "synthetic"
   },
@@ -45785,8 +45785,8 @@
    "truthRiskMix": {
     "Low": 605,
     "Medium": 182,
-    "High": 142,
-    "Critical": 153
+    "High": 155,
+    "Critical": 140
    },
    "dataSource": "synthetic"
   },
@@ -46242,8 +46242,8 @@
    "truthRiskMix": {
     "Low": 463,
     "Medium": 149,
-    "High": 107,
-    "Critical": 115
+    "High": 113,
+    "Critical": 109
    },
    "dataSource": "synthetic"
   },
@@ -46697,8 +46697,8 @@
    "truthRiskMix": {
     "Low": 400,
     "Medium": 151,
-    "High": 116,
-    "Critical": 139
+    "High": 124,
+    "Critical": 131
    },
    "dataSource": "synthetic"
   },
@@ -47598,8 +47598,8 @@
    "truthRiskMix": {
     "Low": 169,
     "Medium": 61,
-    "High": 49,
-    "Critical": 45
+    "High": 55,
+    "Critical": 39
    },
    "dataSource": "synthetic"
   },
@@ -48035,8 +48035,8 @@
    "truthRiskMix": {
     "Low": 143,
     "Medium": 53,
-    "High": 45,
-    "Critical": 55
+    "High": 49,
+    "Critical": 51
    },
    "dataSource": "synthetic"
   },
@@ -48479,8 +48479,8 @@
    "truthRiskMix": {
     "Low": 416,
     "Medium": 80,
-    "High": 45,
-    "Critical": 27
+    "High": 46,
+    "Critical": 26
    },
    "dataSource": "synthetic"
   },
@@ -48916,8 +48916,8 @@
    "truthRiskMix": {
     "Low": 1859,
     "Medium": 774,
-    "High": 613,
-    "Critical": 725
+    "High": 665,
+    "Critical": 673
    },
    "dataSource": "synthetic"
   },
@@ -49371,8 +49371,8 @@
    "truthRiskMix": {
     "Low": 519,
     "Medium": 133,
-    "High": 101,
-    "Critical": 86
+    "High": 108,
+    "Critical": 79
    },
    "dataSource": "synthetic"
   },
@@ -49825,8 +49825,8 @@
    "truthRiskMix": {
     "Low": 168,
     "Medium": 53,
-    "High": 38,
-    "Critical": 38
+    "High": 42,
+    "Critical": 34
    },
    "dataSource": "synthetic"
   },
@@ -50745,8 +50745,8 @@
    "truthRiskMix": {
     "Low": 323,
     "Medium": 163,
-    "High": 169,
-    "Critical": 229
+    "High": 175,
+    "Critical": 223
    },
    "dataSource": "synthetic"
   },
@@ -51197,8 +51197,8 @@
    "truthRiskMix": {
     "Low": 182,
     "Medium": 61,
-    "High": 49,
-    "Critical": 61
+    "High": 50,
+    "Critical": 60
    },
    "dataSource": "synthetic"
   },
@@ -51617,8 +51617,8 @@
    "truthRiskMix": {
     "Low": 1094,
     "Medium": 268,
-    "High": 150,
-    "Critical": 136
+    "High": 158,
+    "Critical": 128
    },
    "dataSource": "synthetic"
   },
@@ -52058,8 +52058,8 @@
    "truthRiskMix": {
     "Low": 345,
     "Medium": 131,
-    "High": 87,
-    "Critical": 82
+    "High": 94,
+    "Critical": 75
    },
    "dataSource": "synthetic"
   },
@@ -52499,8 +52499,8 @@
    "truthRiskMix": {
     "Low": 176,
     "Medium": 49,
-    "High": 28,
-    "Critical": 34
+    "High": 29,
+    "Critical": 33
    },
    "dataSource": "synthetic"
   },
@@ -52951,8 +52951,8 @@
    "truthRiskMix": {
     "Low": 2525,
     "Medium": 691,
-    "High": 520,
-    "Critical": 501
+    "High": 560,
+    "Critical": 461
    },
    "dataSource": "synthetic"
   },
@@ -53387,8 +53387,8 @@
    "truthRiskMix": {
     "Low": 330,
     "Medium": 143,
-    "High": 134,
-    "Critical": 226
+    "High": 148,
+    "Critical": 212
    },
    "dataSource": "synthetic"
   },
@@ -53823,8 +53823,8 @@
    "truthRiskMix": {
     "Low": 2797,
     "Medium": 388,
-    "High": 155,
-    "Critical": 62
+    "High": 163,
+    "Critical": 54
    },
    "dataSource": "synthetic"
   },
@@ -54259,8 +54259,8 @@
    "truthRiskMix": {
     "Low": 506,
     "Medium": 282,
-    "High": 263,
-    "Critical": 396
+    "High": 294,
+    "Critical": 365
    },
    "dataSource": "synthetic"
   },
@@ -54680,8 +54680,8 @@
    "truthRiskMix": {
     "Low": 451,
     "Medium": 177,
-    "High": 130,
-    "Critical": 161
+    "High": 148,
+    "Critical": 143
    },
    "dataSource": "synthetic"
   },
@@ -55132,8 +55132,8 @@
    "truthRiskMix": {
     "Low": 181,
     "Medium": 72,
-    "High": 57,
-    "Critical": 71
+    "High": 60,
+    "Critical": 68
    },
    "dataSource": "synthetic"
   },
@@ -55606,8 +55606,8 @@
    "truthRiskMix": {
     "Low": 662,
     "Medium": 209,
-    "High": 188,
-    "Critical": 271
+    "High": 208,
+    "Critical": 251
    },
    "dataSource": "synthetic"
   },
@@ -56042,8 +56042,8 @@
    "truthRiskMix": {
     "Low": 707,
     "Medium": 350,
-    "High": 266,
-    "Critical": 432
+    "High": 283,
+    "Critical": 415
    },
    "dataSource": "synthetic"
   },
@@ -56484,8 +56484,8 @@
    "truthRiskMix": {
     "Low": 777,
     "Medium": 504,
-    "High": 413,
-    "Critical": 938
+    "High": 455,
+    "Critical": 896
    },
    "dataSource": "synthetic"
   },
@@ -56965,8 +56965,8 @@
    "truthRiskMix": {
     "Low": 347,
     "Medium": 91,
-    "High": 56,
-    "Critical": 35
+    "High": 62,
+    "Critical": 29
    },
    "dataSource": "synthetic"
   },
@@ -57356,8 +57356,8 @@
    "truthRiskMix": {
     "Low": 328,
     "Medium": 68,
-    "High": 34,
-    "Critical": 33
+    "High": 41,
+    "Critical": 26
    },
    "dataSource": "synthetic"
   },
@@ -57776,8 +57776,8 @@
    "truthRiskMix": {
     "Low": 628,
     "Medium": 132,
-    "High": 79,
-    "Critical": 43
+    "High": 84,
+    "Critical": 38
    },
    "dataSource": "synthetic"
   },
@@ -58196,8 +58196,8 @@
    "truthRiskMix": {
     "Low": 463,
     "Medium": 83,
-    "High": 45,
-    "Critical": 41
+    "High": 50,
+    "Critical": 36
    },
    "dataSource": "synthetic"
   },
@@ -58601,8 +58601,8 @@
    "truthRiskMix": {
     "Low": 426,
     "Medium": 110,
-    "High": 68,
-    "Critical": 27
+    "High": 71,
+    "Critical": 24
    },
    "dataSource": "synthetic"
   },
@@ -59060,8 +59060,8 @@
    "truthRiskMix": {
     "Low": 370,
     "Medium": 136,
-    "High": 130,
-    "Critical": 160
+    "High": 141,
+    "Critical": 149
    },
    "dataSource": "synthetic"
   },
@@ -59517,8 +59517,8 @@
    "truthRiskMix": {
     "Low": 447,
     "Medium": 169,
-    "High": 137,
-    "Critical": 166
+    "High": 146,
+    "Critical": 157
    },
    "dataSource": "synthetic"
   },
@@ -59967,8 +59967,8 @@
    "truthRiskMix": {
     "Low": 1452,
     "Medium": 746,
-    "High": 704,
-    "Critical": 943
+    "High": 748,
+    "Critical": 899
    },
    "dataSource": "synthetic"
   },
@@ -60387,8 +60387,8 @@
    "truthRiskMix": {
     "Low": 1998,
     "Medium": 449,
-    "High": 355,
-    "Critical": 314
+    "High": 380,
+    "Critical": 289
    },
    "dataSource": "synthetic"
   },
@@ -60807,8 +60807,8 @@
    "truthRiskMix": {
     "Low": 301,
     "Medium": 108,
-    "High": 57,
-    "Critical": 65
+    "High": 63,
+    "Critical": 59
    },
    "dataSource": "synthetic"
   },
@@ -61243,8 +61243,8 @@
    "truthRiskMix": {
     "Low": 450,
     "Medium": 139,
-    "High": 88,
-    "Critical": 74
+    "High": 90,
+    "Critical": 72
    },
    "dataSource": "synthetic"
   },
@@ -61681,8 +61681,8 @@
    "truthRiskMix": {
     "Low": 582,
     "Medium": 140,
-    "High": 110,
-    "Critical": 139
+    "High": 120,
+    "Critical": 129
    },
    "dataSource": "synthetic"
   },
@@ -62131,8 +62131,8 @@
    "truthRiskMix": {
     "Low": 267,
     "Medium": 56,
-    "High": 28,
-    "Critical": 30
+    "High": 34,
+    "Critical": 24
    },
    "dataSource": "synthetic"
   },
@@ -62597,8 +62597,8 @@
    "truthRiskMix": {
     "Low": 837,
     "Medium": 164,
-    "High": 76,
-    "Critical": 44
+    "High": 82,
+    "Critical": 38
    },
    "dataSource": "synthetic"
   },
@@ -63017,8 +63017,8 @@
    "truthRiskMix": {
     "Low": 705,
     "Medium": 209,
-    "High": 156,
-    "Critical": 209
+    "High": 167,
+    "Critical": 198
    },
    "dataSource": "synthetic"
   },
@@ -63429,8 +63429,8 @@
    "truthRiskMix": {
     "Low": 287,
     "Medium": 49,
-    "High": 17,
-    "Critical": 7
+    "High": 18,
+    "Critical": 6
    },
    "dataSource": "synthetic"
   },
@@ -63886,8 +63886,8 @@
    "truthRiskMix": {
     "Low": 231,
     "Medium": 109,
-    "High": 104,
-    "Critical": 144
+    "High": 122,
+    "Critical": 126
    },
    "dataSource": "synthetic"
   },
@@ -64323,8 +64323,8 @@
    "truthRiskMix": {
     "Low": 874,
     "Medium": 210,
-    "High": 119,
-    "Critical": 78
+    "High": 124,
+    "Critical": 73
    },
    "dataSource": "synthetic"
   },
@@ -64774,8 +64774,8 @@
    "truthRiskMix": {
     "Low": 227,
     "Medium": 91,
-    "High": 104,
-    "Critical": 127
+    "High": 113,
+    "Critical": 118
    },
    "dataSource": "synthetic"
   },
@@ -65210,8 +65210,8 @@
    "truthRiskMix": {
     "Low": 186,
     "Medium": 72,
-    "High": 43,
-    "Critical": 51
+    "High": 46,
+    "Critical": 48
    },
    "dataSource": "synthetic"
   },
@@ -65648,8 +65648,8 @@
    "truthRiskMix": {
     "Low": 103,
     "Medium": 50,
-    "High": 32,
-    "Critical": 40
+    "High": 36,
+    "Critical": 36
    },
    "dataSource": "synthetic"
   },
@@ -66098,8 +66098,8 @@
    "truthRiskMix": {
     "Low": 1068,
     "Medium": 255,
-    "High": 137,
-    "Critical": 85
+    "High": 148,
+    "Critical": 74
    },
    "dataSource": "synthetic"
   },
@@ -66537,8 +66537,8 @@
    "truthRiskMix": {
     "Low": 298,
     "Medium": 159,
-    "High": 154,
-    "Critical": 284
+    "High": 166,
+    "Critical": 272
    },
    "dataSource": "synthetic"
   },
@@ -66987,8 +66987,8 @@
    "truthRiskMix": {
     "Low": 364,
     "Medium": 110,
-    "High": 77,
-    "Critical": 89
+    "High": 86,
+    "Critical": 80
    },
    "dataSource": "synthetic"
   },
@@ -67423,8 +67423,8 @@
    "truthRiskMix": {
     "Low": 131,
     "Medium": 45,
-    "High": 45,
-    "Critical": 29
+    "High": 47,
+    "Critical": 27
    },
    "dataSource": "synthetic"
   },
@@ -67881,8 +67881,8 @@
    "truthRiskMix": {
     "Low": 1341,
     "Medium": 587,
-    "High": 519,
-    "Critical": 793
+    "High": 573,
+    "Critical": 739
    },
    "dataSource": "synthetic"
   },
@@ -68347,8 +68347,8 @@
    "truthRiskMix": {
     "Low": 357,
     "Medium": 91,
-    "High": 79,
-    "Critical": 94
+    "High": 90,
+    "Critical": 83
    },
    "dataSource": "synthetic"
   },
@@ -68783,8 +68783,8 @@
    "truthRiskMix": {
     "Low": 209,
     "Medium": 51,
-    "High": 37,
-    "Critical": 52
+    "High": 39,
+    "Critical": 50
    },
    "dataSource": "synthetic"
   },
@@ -69254,8 +69254,8 @@
    "truthRiskMix": {
     "Low": 181,
     "Medium": 108,
-    "High": 120,
-    "Critical": 205
+    "High": 129,
+    "Critical": 196
    },
    "dataSource": "synthetic"
   },
@@ -69726,8 +69726,8 @@
    "truthRiskMix": {
     "Low": 496,
     "Medium": 212,
-    "High": 201,
-    "Critical": 308
+    "High": 223,
+    "Critical": 286
    },
    "dataSource": "synthetic"
   },
@@ -70176,8 +70176,8 @@
    "truthRiskMix": {
     "Low": 147,
     "Medium": 65,
-    "High": 64,
-    "Critical": 77
+    "High": 69,
+    "Critical": 72
    },
    "dataSource": "synthetic"
   },
@@ -70620,8 +70620,8 @@
    "truthRiskMix": {
     "Low": 304,
     "Medium": 126,
-    "High": 107,
-    "Critical": 138
+    "High": 113,
+    "Critical": 132
    },
    "dataSource": "synthetic"
   },
@@ -71058,8 +71058,8 @@
    "truthRiskMix": {
     "Low": 1430,
     "Medium": 562,
-    "High": 472,
-    "Critical": 601
+    "High": 509,
+    "Critical": 564
    },
    "dataSource": "synthetic"
   },
@@ -71524,8 +71524,8 @@
    "truthRiskMix": {
     "Low": 535,
     "Medium": 211,
-    "High": 156,
-    "Critical": 230
+    "High": 173,
+    "Critical": 213
    },
    "dataSource": "synthetic"
   },
@@ -71978,8 +71978,8 @@
    "truthRiskMix": {
     "Low": 662,
     "Medium": 293,
-    "High": 229,
-    "Critical": 257
+    "High": 252,
+    "Critical": 234
    },
    "dataSource": "synthetic"
   },
@@ -72430,8 +72430,8 @@
    "truthRiskMix": {
     "Low": 508,
     "Medium": 118,
-    "High": 60,
-    "Critical": 46
+    "High": 64,
+    "Critical": 42
    },
    "dataSource": "synthetic"
   },
@@ -72843,8 +72843,8 @@
    "truthRiskMix": {
     "Low": 745,
     "Medium": 193,
-    "High": 135,
-    "Critical": 128
+    "High": 146,
+    "Critical": 117
    },
    "dataSource": "synthetic"
   },
@@ -73325,8 +73325,8 @@
    "truthRiskMix": {
     "Low": 828,
     "Medium": 197,
-    "High": 113,
-    "Critical": 97
+    "High": 127,
+    "Critical": 83
    },
    "dataSource": "synthetic"
   },
@@ -73786,8 +73786,8 @@
    "truthRiskMix": {
     "Low": 80,
     "Medium": 37,
-    "High": 31,
-    "Critical": 32
+    "High": 32,
+    "Critical": 31
    },
    "dataSource": "synthetic"
   },
@@ -74207,8 +74207,8 @@
    "truthRiskMix": {
     "Low": 343,
     "Medium": 100,
-    "High": 54,
-    "Critical": 50
+    "High": 64,
+    "Critical": 40
    },
    "dataSource": "synthetic"
   },
@@ -74649,8 +74649,8 @@
    "truthRiskMix": {
     "Low": 288,
     "Medium": 76,
-    "High": 67,
-    "Critical": 69
+    "High": 73,
+    "Critical": 63
    },
    "dataSource": "synthetic"
   },
@@ -75108,8 +75108,8 @@
    "truthRiskMix": {
     "Low": 306,
     "Medium": 94,
-    "High": 70,
-    "Critical": 35
+    "High": 73,
+    "Critical": 32
    },
    "dataSource": "synthetic"
   },
@@ -75551,8 +75551,8 @@
    "truthRiskMix": {
     "Low": 368,
     "Medium": 67,
-    "High": 57,
-    "Critical": 33
+    "High": 59,
+    "Critical": 31
    },
    "dataSource": "synthetic"
   },
@@ -75971,8 +75971,8 @@
    "truthRiskMix": {
     "Low": 1765,
     "Medium": 620,
-    "High": 458,
-    "Critical": 623
+    "High": 494,
+    "Critical": 587
    },
    "dataSource": "synthetic"
   },
@@ -76408,8 +76408,8 @@
    "truthRiskMix": {
     "Low": 946,
     "Medium": 310,
-    "High": 234,
-    "Critical": 205
+    "High": 250,
+    "Critical": 189
    },
    "dataSource": "synthetic"
   },
@@ -76833,8 +76833,8 @@
    "truthRiskMix": {
     "Low": 324,
     "Medium": 159,
-    "High": 123,
-    "Critical": 149
+    "High": 133,
+    "Critical": 139
    },
    "dataSource": "synthetic"
   },
@@ -77291,8 +77291,8 @@
    "truthRiskMix": {
     "Low": 814,
     "Medium": 205,
-    "High": 155,
-    "Critical": 205
+    "High": 172,
+    "Critical": 188
    },
    "dataSource": "synthetic"
   },
@@ -78181,8 +78181,8 @@
    "truthRiskMix": {
     "Low": 111,
     "Medium": 45,
-    "High": 32,
-    "Critical": 35
+    "High": 33,
+    "Critical": 34
    },
    "dataSource": "synthetic"
   },
@@ -78631,8 +78631,8 @@
    "truthRiskMix": {
     "Low": 482,
     "Medium": 125,
-    "High": 101,
-    "Critical": 73
+    "High": 106,
+    "Critical": 68
    },
    "dataSource": "synthetic"
   },
@@ -79086,8 +79086,8 @@
    "truthRiskMix": {
     "Low": 97,
     "Medium": 40,
-    "High": 35,
-    "Critical": 42
+    "High": 39,
+    "Critical": 38
    },
    "dataSource": "synthetic"
   },
@@ -79542,8 +79542,8 @@
    "truthRiskMix": {
     "Low": 103,
     "Medium": 28,
-    "High": 30,
-    "Critical": 54
+    "High": 34,
+    "Critical": 50
    },
    "dataSource": "synthetic"
   },
@@ -80017,8 +80017,8 @@
    "truthRiskMix": {
     "Low": 167,
     "Medium": 36,
-    "High": 22,
-    "Critical": 15
+    "High": 27,
+    "Critical": 10
    },
    "dataSource": "synthetic"
   },
@@ -80469,8 +80469,8 @@
    "truthRiskMix": {
     "Low": 780,
     "Medium": 314,
-    "High": 252,
-    "Critical": 309
+    "High": 272,
+    "Critical": 289
    },
    "dataSource": "synthetic"
   },
@@ -80921,8 +80921,8 @@
    "truthRiskMix": {
     "Low": 191,
     "Medium": 65,
-    "High": 55,
-    "Critical": 61
+    "High": 58,
+    "Critical": 58
    },
    "dataSource": "synthetic"
   },
@@ -81367,8 +81367,8 @@
    "truthRiskMix": {
     "Low": 230,
     "Medium": 64,
-    "High": 41,
-    "Critical": 41
+    "High": 45,
+    "Critical": 37
    },
    "dataSource": "synthetic"
   },
@@ -81819,8 +81819,8 @@
    "truthRiskMix": {
     "Low": 186,
     "Medium": 103,
-    "High": 89,
-    "Critical": 135
+    "High": 97,
+    "Critical": 127
    },
    "dataSource": "synthetic"
   },
@@ -82239,8 +82239,8 @@
    "truthRiskMix": {
     "Low": 1988,
     "Medium": 503,
-    "High": 332,
-    "Critical": 259
+    "High": 355,
+    "Critical": 236
    },
    "dataSource": "synthetic"
   },
@@ -82675,8 +82675,8 @@
    "truthRiskMix": {
     "Low": 1182,
     "Medium": 251,
-    "High": 145,
-    "Critical": 94
+    "High": 156,
+    "Critical": 83
    },
    "dataSource": "synthetic"
   },
@@ -83115,8 +83115,8 @@
    "truthRiskMix": {
     "Low": 2392,
     "Medium": 414,
-    "High": 260,
-    "Critical": 159
+    "High": 269,
+    "Critical": 150
    },
    "dataSource": "synthetic"
   },
@@ -83584,8 +83584,8 @@
    "truthRiskMix": {
     "Low": 621,
     "Medium": 252,
-    "High": 222,
-    "Critical": 323
+    "High": 239,
+    "Critical": 306
    },
    "dataSource": "synthetic"
   },
@@ -84020,8 +84020,8 @@
    "truthRiskMix": {
     "Low": 1636,
     "Medium": 386,
-    "High": 296,
-    "Critical": 315
+    "High": 324,
+    "Critical": 287
    },
    "dataSource": "synthetic"
   },
@@ -84470,8 +84470,8 @@
    "truthRiskMix": {
     "Low": 1776,
     "Medium": 549,
-    "High": 365,
-    "Critical": 382
+    "High": 400,
+    "Critical": 347
    },
    "dataSource": "synthetic"
   },
@@ -84920,8 +84920,8 @@
    "truthRiskMix": {
     "Low": 343,
     "Medium": 121,
-    "High": 102,
-    "Critical": 147
+    "High": 112,
+    "Critical": 137
    },
    "dataSource": "synthetic"
   },
@@ -85375,8 +85375,8 @@
    "truthRiskMix": {
     "Low": 321,
     "Medium": 100,
-    "High": 70,
-    "Critical": 56
+    "High": 74,
+    "Critical": 52
    },
    "dataSource": "synthetic"
   },
@@ -85848,8 +85848,8 @@
    "truthRiskMix": {
     "Low": 964,
     "Medium": 278,
-    "High": 215,
-    "Critical": 176
+    "High": 231,
+    "Critical": 160
    },
    "dataSource": "synthetic"
   },
@@ -86298,8 +86298,8 @@
    "truthRiskMix": {
     "Low": 822,
     "Medium": 312,
-    "High": 266,
-    "Critical": 344
+    "High": 292,
+    "Critical": 318
    },
    "dataSource": "synthetic"
   },
@@ -86719,8 +86719,8 @@
    "truthRiskMix": {
     "Low": 1918,
     "Medium": 506,
-    "High": 355,
-    "Critical": 375
+    "High": 384,
+    "Critical": 346
    },
    "dataSource": "synthetic"
   },
@@ -87179,8 +87179,8 @@
    "truthRiskMix": {
     "Low": 501,
     "Medium": 311,
-    "High": 277,
-    "Critical": 486
+    "High": 307,
+    "Critical": 456
    },
    "dataSource": "synthetic"
   },
@@ -87639,8 +87639,8 @@
    "truthRiskMix": {
     "Low": 154,
     "Medium": 67,
-    "High": 39,
-    "Critical": 42
+    "High": 46,
+    "Critical": 35
    },
    "dataSource": "synthetic"
   },
@@ -88075,8 +88075,8 @@
    "truthRiskMix": {
     "Low": 463,
     "Medium": 100,
-    "High": 57,
-    "Critical": 42
+    "High": 64,
+    "Critical": 35
    },
    "dataSource": "synthetic"
   },
@@ -88557,8 +88557,8 @@
    "truthRiskMix": {
     "Low": 1052,
     "Medium": 428,
-    "High": 419,
-    "Critical": 591
+    "High": 470,
+    "Critical": 540
    },
    "dataSource": "synthetic"
   },
@@ -89010,8 +89010,8 @@
    "truthRiskMix": {
     "Low": 183,
     "Medium": 71,
-    "High": 59,
-    "Critical": 56
+    "High": 65,
+    "Critical": 50
    },
    "dataSource": "synthetic"
   },
@@ -89430,8 +89430,8 @@
    "truthRiskMix": {
     "Low": 919,
     "Medium": 503,
-    "High": 565,
-    "Critical": 919
+    "High": 613,
+    "Critical": 871
    },
    "dataSource": "synthetic"
   },
@@ -89896,8 +89896,8 @@
    "truthRiskMix": {
     "Low": 295,
     "Medium": 81,
-    "High": 77,
-    "Critical": 113
+    "High": 83,
+    "Critical": 107
    },
    "dataSource": "synthetic"
   },
@@ -90316,8 +90316,8 @@
    "truthRiskMix": {
     "Low": 1139,
     "Medium": 349,
-    "High": 262,
-    "Critical": 227
+    "High": 282,
+    "Critical": 207
    },
    "dataSource": "synthetic"
   },
@@ -91261,8 +91261,8 @@
    "truthRiskMix": {
     "Low": 378,
     "Medium": 171,
-    "High": 166,
-    "Critical": 293
+    "High": 185,
+    "Critical": 274
    },
    "dataSource": "synthetic"
   },
@@ -91697,8 +91697,8 @@
    "truthRiskMix": {
     "Low": 143,
     "Medium": 39,
-    "High": 31,
-    "Critical": 20
+    "High": 33,
+    "Critical": 18
    },
    "dataSource": "synthetic"
   },
@@ -92139,8 +92139,8 @@
    "truthRiskMix": {
     "Low": 334,
     "Medium": 69,
-    "High": 44,
-    "Critical": 25
+    "High": 46,
+    "Critical": 23
    },
    "dataSource": "synthetic"
   },
@@ -92612,8 +92612,8 @@
    "truthRiskMix": {
     "Low": 759,
     "Medium": 306,
-    "High": 211,
-    "Critical": 286
+    "High": 230,
+    "Critical": 267
    },
    "dataSource": "synthetic"
   },
@@ -93048,8 +93048,8 @@
    "truthRiskMix": {
     "Low": 524,
     "Medium": 125,
-    "High": 76,
-    "Critical": 49
+    "High": 82,
+    "Critical": 43
    },
    "dataSource": "synthetic"
   },
@@ -93468,8 +93468,8 @@
    "truthRiskMix": {
     "Low": 1696,
     "Medium": 356,
-    "High": 223,
-    "Critical": 236
+    "High": 235,
+    "Critical": 224
    },
    "dataSource": "synthetic"
   },
@@ -93888,8 +93888,8 @@
    "truthRiskMix": {
     "Low": 798,
     "Medium": 293,
-    "High": 216,
-    "Critical": 324
+    "High": 238,
+    "Critical": 302
    },
    "dataSource": "synthetic"
   },
@@ -94342,8 +94342,8 @@
    "truthRiskMix": {
     "Low": 504,
     "Medium": 223,
-    "High": 209,
-    "Critical": 318
+    "High": 238,
+    "Critical": 289
    },
    "dataSource": "synthetic"
   },
@@ -94792,8 +94792,8 @@
    "truthRiskMix": {
     "Low": 328,
     "Medium": 82,
-    "High": 74,
-    "Critical": 78
+    "High": 77,
+    "Critical": 75
    },
    "dataSource": "synthetic"
   },
@@ -95238,8 +95238,8 @@
    "truthRiskMix": {
     "Low": 346,
     "Medium": 107,
-    "High": 88,
-    "Critical": 106
+    "High": 95,
+    "Critical": 99
    },
    "dataSource": "synthetic"
   },
@@ -95658,8 +95658,8 @@
    "truthRiskMix": {
     "Low": 582,
     "Medium": 87,
-    "High": 36,
-    "Critical": 23
+    "High": 38,
+    "Critical": 21
    },
    "dataSource": "synthetic"
   },
@@ -96099,8 +96099,8 @@
    "truthRiskMix": {
     "Low": 3195,
     "Medium": 775,
-    "High": 524,
-    "Critical": 507
+    "High": 569,
+    "Critical": 462
    },
    "dataSource": "synthetic"
   },
@@ -97003,8 +97003,8 @@
    "truthRiskMix": {
     "Low": 199,
     "Medium": 135,
-    "High": 87,
-    "Critical": 80
+    "High": 95,
+    "Critical": 72
    },
    "dataSource": "synthetic"
   },
@@ -97425,8 +97425,8 @@
    "truthRiskMix": {
     "Low": 1703,
     "Medium": 190,
-    "High": 89,
-    "Critical": 47
+    "High": 94,
+    "Critical": 42
    },
    "dataSource": "synthetic"
   },
@@ -97863,8 +97863,8 @@
    "truthRiskMix": {
     "Low": 637,
     "Medium": 132,
-    "High": 78,
-    "Critical": 85
+    "High": 86,
+    "Critical": 77
    },
    "dataSource": "synthetic"
   },
@@ -98277,8 +98277,8 @@
    "truthRiskMix": {
     "Low": 4129,
     "Medium": 988,
-    "High": 597,
-    "Critical": 503
+    "High": 639,
+    "Critical": 461
    },
    "dataSource": "synthetic"
   },
@@ -99154,8 +99154,8 @@
    "truthRiskMix": {
     "Low": 872,
     "Medium": 292,
-    "High": 246,
-    "Critical": 268
+    "High": 264,
+    "Critical": 250
    },
    "dataSource": "synthetic"
   },
@@ -99606,8 +99606,8 @@
    "truthRiskMix": {
     "Low": 419,
     "Medium": 144,
-    "High": 92,
-    "Critical": 118
+    "High": 102,
+    "Critical": 108
    },
    "dataSource": "synthetic"
   },
@@ -100034,8 +100034,8 @@
    "truthRiskMix": {
     "Low": 385,
     "Medium": 121,
-    "High": 89,
-    "Critical": 117
+    "High": 99,
+    "Critical": 107
    },
    "dataSource": "synthetic"
   },
@@ -100455,8 +100455,8 @@
    "truthRiskMix": {
     "Low": 873,
     "Medium": 258,
-    "High": 164,
-    "Critical": 151
+    "High": 174,
+    "Critical": 141
    },
    "dataSource": "synthetic"
   },
@@ -100893,8 +100893,8 @@
    "truthRiskMix": {
     "Low": 211,
     "Medium": 87,
-    "High": 68,
-    "Critical": 130
+    "High": 74,
+    "Critical": 124
    },
    "dataSource": "synthetic"
   },
@@ -101318,8 +101318,8 @@
    "truthRiskMix": {
     "Low": 324,
     "Medium": 123,
-    "High": 97,
-    "Critical": 90
+    "High": 106,
+    "Critical": 81
    },
    "dataSource": "synthetic"
   },
@@ -102158,8 +102158,8 @@
    "truthRiskMix": {
     "Low": 249,
     "Medium": 72,
-    "High": 58,
-    "Critical": 67
+    "High": 62,
+    "Critical": 63
    },
    "dataSource": "synthetic"
   },
@@ -102625,8 +102625,8 @@
    "truthRiskMix": {
     "Low": 837,
     "Medium": 279,
-    "High": 232,
-    "Critical": 249
+    "High": 256,
+    "Critical": 225
    },
    "dataSource": "synthetic"
   },
@@ -103077,8 +103077,8 @@
    "truthRiskMix": {
     "Low": 648,
     "Medium": 242,
-    "High": 185,
-    "Critical": 233
+    "High": 199,
+    "Critical": 219
    },
    "dataSource": "synthetic"
   },
@@ -103514,8 +103514,8 @@
    "truthRiskMix": {
     "Low": 195,
     "Medium": 17,
-    "High": 11,
-    "Critical": 12
+    "High": 12,
+    "Critical": 11
    },
    "dataSource": "synthetic"
   },
@@ -103934,8 +103934,8 @@
    "truthRiskMix": {
     "Low": 345,
     "Medium": 77,
-    "High": 41,
-    "Critical": 34
+    "High": 44,
+    "Critical": 31
    },
    "dataSource": "synthetic"
   },
@@ -104386,8 +104386,8 @@
    "truthRiskMix": {
     "Low": 304,
     "Medium": 114,
-    "High": 93,
-    "Critical": 111
+    "High": 100,
+    "Critical": 104
    },
    "dataSource": "synthetic"
   },
@@ -104843,8 +104843,8 @@
    "truthRiskMix": {
     "Low": 759,
     "Medium": 311,
-    "High": 291,
-    "Critical": 390
+    "High": 312,
+    "Critical": 369
    },
    "dataSource": "synthetic"
   },
@@ -105279,8 +105279,8 @@
    "truthRiskMix": {
     "Low": 150,
     "Medium": 72,
-    "High": 55,
-    "Critical": 113
+    "High": 59,
+    "Critical": 109
    },
    "dataSource": "synthetic"
   },
@@ -105699,8 +105699,8 @@
    "truthRiskMix": {
     "Low": 2253,
     "Medium": 513,
-    "High": 326,
-    "Critical": 331
+    "High": 347,
+    "Critical": 310
    },
    "dataSource": "synthetic"
   },
@@ -106119,8 +106119,8 @@
    "truthRiskMix": {
     "Low": 537,
     "Medium": 214,
-    "High": 170,
-    "Critical": 256
+    "High": 192,
+    "Critical": 234
    },
    "dataSource": "synthetic"
   },
@@ -106565,8 +106565,8 @@
    "truthRiskMix": {
     "Low": 226,
     "Medium": 83,
-    "High": 48,
-    "Critical": 40
+    "High": 58,
+    "Critical": 30
    },
    "dataSource": "synthetic"
   },
@@ -107015,8 +107015,8 @@
    "truthRiskMix": {
     "Low": 557,
     "Medium": 142,
-    "High": 83,
-    "Critical": 82
+    "High": 90,
+    "Critical": 75
    },
    "dataSource": "synthetic"
   },
@@ -107465,8 +107465,8 @@
    "truthRiskMix": {
     "Low": 404,
     "Medium": 74,
-    "High": 45,
-    "Critical": 30
+    "High": 48,
+    "Critical": 27
    },
    "dataSource": "synthetic"
   },
@@ -107875,8 +107875,8 @@
    "truthRiskMix": {
     "Low": 704,
     "Medium": 264,
-    "High": 192,
-    "Critical": 217
+    "High": 203,
+    "Critical": 206
    },
    "dataSource": "synthetic"
   },
@@ -108325,8 +108325,8 @@
    "truthRiskMix": {
     "Low": 373,
     "Medium": 154,
-    "High": 175,
-    "Critical": 148
+    "High": 192,
+    "Critical": 131
    },
    "dataSource": "synthetic"
   },
@@ -108792,8 +108792,8 @@
    "truthRiskMix": {
     "Low": 922,
     "Medium": 536,
-    "High": 537,
-    "Critical": 926
+    "High": 583,
+    "Critical": 880
    },
    "dataSource": "synthetic"
   },
@@ -109230,8 +109230,8 @@
    "truthRiskMix": {
     "Low": 246,
     "Medium": 121,
-    "High": 96,
-    "Critical": 147
+    "High": 102,
+    "Critical": 141
    },
    "dataSource": "synthetic"
   },
@@ -109669,8 +109669,8 @@
    "truthRiskMix": {
     "Low": 523,
     "Medium": 196,
-    "High": 94,
-    "Critical": 87
+    "High": 107,
+    "Critical": 74
    },
    "dataSource": "synthetic"
   },
@@ -110123,8 +110123,8 @@
    "truthRiskMix": {
     "Low": 416,
     "Medium": 156,
-    "High": 199,
-    "Critical": 300
+    "High": 216,
+    "Critical": 283
    },
    "dataSource": "synthetic"
   },
@@ -110550,8 +110550,8 @@
    "truthRiskMix": {
     "Low": 464,
     "Medium": 105,
-    "High": 57,
-    "Critical": 46
+    "High": 62,
+    "Critical": 41
    },
    "dataSource": "synthetic"
   },
@@ -110992,8 +110992,8 @@
    "truthRiskMix": {
     "Low": 111,
     "Medium": 50,
-    "High": 38,
-    "Critical": 42
+    "High": 42,
+    "Critical": 38
    },
    "dataSource": "synthetic"
   },
@@ -111447,8 +111447,8 @@
    "truthRiskMix": {
     "Low": 512,
     "Medium": 181,
-    "High": 153,
-    "Critical": 215
+    "High": 175,
+    "Critical": 193
    },
    "dataSource": "synthetic"
   },
@@ -111927,8 +111927,8 @@
    "truthRiskMix": {
     "Low": 912,
     "Medium": 635,
-    "High": 653,
-    "Critical": 1200
+    "High": 728,
+    "Critical": 1125
    },
    "dataSource": "synthetic"
   },
@@ -112370,8 +112370,8 @@
    "truthRiskMix": {
     "Low": 52,
     "Medium": 32,
-    "High": 33,
-    "Critical": 32
+    "High": 35,
+    "Critical": 30
    },
    "dataSource": "synthetic"
   },
@@ -112828,8 +112828,8 @@
    "truthRiskMix": {
     "Low": 870,
     "Medium": 285,
-    "High": 241,
-    "Critical": 228
+    "High": 260,
+    "Critical": 209
    },
    "dataSource": "synthetic"
   },
@@ -113267,8 +113267,8 @@
    "truthRiskMix": {
     "Low": 232,
     "Medium": 61,
-    "High": 41,
-    "Critical": 54
+    "High": 47,
+    "Critical": 48
    },
    "dataSource": "synthetic"
   },
@@ -113723,8 +113723,8 @@
    "truthRiskMix": {
     "Low": 1328,
     "Medium": 178,
-    "High": 115,
-    "Critical": 104
+    "High": 127,
+    "Critical": 92
    },
    "dataSource": "synthetic"
   },
@@ -114162,8 +114162,8 @@
    "truthRiskMix": {
     "Low": 466,
     "Medium": 136,
-    "High": 95,
-    "Critical": 82
+    "High": 100,
+    "Critical": 77
    },
    "dataSource": "synthetic"
   },
@@ -114583,8 +114583,8 @@
    "truthRiskMix": {
     "Low": 520,
     "Medium": 203,
-    "High": 153,
-    "Critical": 193
+    "High": 165,
+    "Critical": 181
    },
    "dataSource": "synthetic"
   },
@@ -115033,8 +115033,8 @@
    "truthRiskMix": {
     "Low": 338,
     "Medium": 125,
-    "High": 87,
-    "Critical": 183
+    "High": 100,
+    "Critical": 170
    },
    "dataSource": "synthetic"
   },
@@ -115489,8 +115489,8 @@
    "truthRiskMix": {
     "Low": 492,
     "Medium": 234,
-    "High": 182,
-    "Critical": 318
+    "High": 196,
+    "Critical": 304
    },
    "dataSource": "synthetic"
   },
@@ -116391,8 +116391,8 @@
    "truthRiskMix": {
     "Low": 472,
     "Medium": 304,
-    "High": 298,
-    "Critical": 535
+    "High": 327,
+    "Critical": 506
    },
    "dataSource": "synthetic"
   },
@@ -116827,8 +116827,8 @@
    "truthRiskMix": {
     "Low": 381,
     "Medium": 154,
-    "High": 123,
-    "Critical": 149
+    "High": 134,
+    "Critical": 138
    },
    "dataSource": "synthetic"
   },
@@ -117295,8 +117295,8 @@
    "truthRiskMix": {
     "Low": 824,
     "Medium": 319,
-    "High": 242,
-    "Critical": 241
+    "High": 260,
+    "Critical": 223
    },
    "dataSource": "synthetic"
   },
@@ -117766,8 +117766,8 @@
    "truthRiskMix": {
     "Low": 911,
     "Medium": 334,
-    "High": 272,
-    "Critical": 362
+    "High": 288,
+    "Critical": 346
    },
    "dataSource": "synthetic"
   },
@@ -118186,8 +118186,8 @@
    "truthRiskMix": {
     "Low": 272,
     "Medium": 81,
-    "High": 49,
-    "Critical": 75
+    "High": 54,
+    "Critical": 70
    },
    "dataSource": "synthetic"
   },
@@ -118638,8 +118638,8 @@
    "truthRiskMix": {
     "Low": 546,
     "Medium": 110,
-    "High": 63,
-    "Critical": 64
+    "High": 70,
+    "Critical": 57
    },
    "dataSource": "synthetic"
   },
@@ -119081,8 +119081,8 @@
    "truthRiskMix": {
     "Low": 1071,
     "Medium": 261,
-    "High": 174,
-    "Critical": 173
+    "High": 188,
+    "Critical": 159
    },
    "dataSource": "synthetic"
   },
@@ -119521,8 +119521,8 @@
    "truthRiskMix": {
     "Low": 149,
     "Medium": 47,
-    "High": 36,
-    "Critical": 32
+    "High": 39,
+    "Critical": 29
    },
    "dataSource": "synthetic"
   },
@@ -119975,8 +119975,8 @@
    "truthRiskMix": {
     "Low": 38,
     "Medium": 21,
-    "High": 28,
-    "Critical": 65
+    "High": 33,
+    "Critical": 60
    },
    "dataSource": "synthetic"
   },
@@ -120427,8 +120427,8 @@
    "truthRiskMix": {
     "Low": 354,
     "Medium": 122,
-    "High": 122,
-    "Critical": 106
+    "High": 130,
+    "Critical": 98
    },
    "dataSource": "synthetic"
   },
@@ -120880,8 +120880,8 @@
    "truthRiskMix": {
     "Low": 297,
     "Medium": 173,
-    "High": 130,
-    "Critical": 167
+    "High": 149,
+    "Critical": 148
    },
    "dataSource": "synthetic"
   },
@@ -121300,8 +121300,8 @@
    "truthRiskMix": {
     "Low": 317,
     "Medium": 73,
-    "High": 44,
-    "Critical": 24
+    "High": 46,
+    "Critical": 22
    },
    "dataSource": "synthetic"
   },
@@ -121775,8 +121775,8 @@
    "truthRiskMix": {
     "Low": 1419,
     "Medium": 539,
-    "High": 491,
-    "Critical": 798
+    "High": 531,
+    "Critical": 758
    },
    "dataSource": "synthetic"
   },
@@ -122225,8 +122225,8 @@
    "truthRiskMix": {
     "Low": 572,
     "Medium": 193,
-    "High": 140,
-    "Critical": 144
+    "High": 154,
+    "Critical": 130
    },
    "dataSource": "synthetic"
   },
@@ -122641,8 +122641,8 @@
    "truthRiskMix": {
     "Low": 1989,
     "Medium": 472,
-    "High": 335,
-    "Critical": 342
+    "High": 370,
+    "Critical": 307
    },
    "dataSource": "synthetic"
   },
@@ -123081,8 +123081,8 @@
    "truthRiskMix": {
     "Low": 319,
     "Medium": 165,
-    "High": 174,
-    "Critical": 304
+    "High": 189,
+    "Critical": 289
    },
    "dataSource": "synthetic"
   },
@@ -123517,8 +123517,8 @@
    "truthRiskMix": {
     "Low": 201,
     "Medium": 46,
-    "High": 43,
-    "Critical": 46
+    "High": 46,
+    "Critical": 43
    },
    "dataSource": "synthetic"
   },
@@ -123967,8 +123967,8 @@
    "truthRiskMix": {
     "Low": 662,
     "Medium": 227,
-    "High": 146,
-    "Critical": 185
+    "High": 161,
+    "Critical": 170
    },
    "dataSource": "synthetic"
   },
@@ -124403,8 +124403,8 @@
    "truthRiskMix": {
     "Low": 273,
     "Medium": 55,
-    "High": 51,
-    "Critical": 41
+    "High": 56,
+    "Critical": 36
    },
    "dataSource": "synthetic"
   },
@@ -124856,8 +124856,8 @@
    "truthRiskMix": {
     "Low": 800,
     "Medium": 261,
-    "High": 236,
-    "Critical": 307
+    "High": 259,
+    "Critical": 284
    },
    "dataSource": "synthetic"
   },
@@ -125295,8 +125295,8 @@
    "truthRiskMix": {
     "Low": 386,
     "Medium": 164,
-    "High": 101,
-    "Critical": 62
+    "High": 108,
+    "Critical": 55
    },
    "dataSource": "synthetic"
   },
@@ -125769,8 +125769,8 @@
    "truthRiskMix": {
     "Low": 258,
     "Medium": 115,
-    "High": 92,
-    "Critical": 138
+    "High": 101,
+    "Critical": 129
    },
    "dataSource": "synthetic"
   },
@@ -126205,8 +126205,8 @@
    "truthRiskMix": {
     "Low": 1260,
     "Medium": 236,
-    "High": 159,
-    "Critical": 164
+    "High": 169,
+    "Critical": 154
    },
    "dataSource": "synthetic"
   },
@@ -126657,8 +126657,8 @@
    "truthRiskMix": {
     "Low": 929,
     "Medium": 308,
-    "High": 238,
-    "Critical": 256
+    "High": 257,
+    "Critical": 237
    },
    "dataSource": "synthetic"
   },
@@ -127072,8 +127072,8 @@
    "truthRiskMix": {
     "Low": 1056,
     "Medium": 125,
-    "High": 45,
-    "Critical": 20
+    "High": 50,
+    "Critical": 15
    },
    "dataSource": "synthetic"
   },
@@ -127569,8 +127569,8 @@
    "truthRiskMix": {
     "Low": 905,
     "Medium": 276,
-    "High": 224,
-    "Critical": 254
+    "High": 238,
+    "Critical": 240
    },
    "dataSource": "synthetic"
   },
@@ -128038,8 +128038,8 @@
    "truthRiskMix": {
     "Low": 66,
     "Medium": 34,
-    "High": 25,
-    "Critical": 45
+    "High": 27,
+    "Critical": 43
    },
    "dataSource": "synthetic"
   },
@@ -128488,8 +128488,8 @@
    "truthRiskMix": {
     "Low": 697,
     "Medium": 148,
-    "High": 126,
-    "Critical": 96
+    "High": 133,
+    "Critical": 89
    },
    "dataSource": "synthetic"
   },
@@ -128938,8 +128938,8 @@
    "truthRiskMix": {
     "Low": 1405,
     "Medium": 177,
-    "High": 85,
-    "Critical": 41
+    "High": 91,
+    "Critical": 35
    },
    "dataSource": "synthetic"
   },
@@ -129391,8 +129391,8 @@
    "truthRiskMix": {
     "Low": 407,
     "Medium": 130,
-    "High": 112,
-    "Critical": 116
+    "High": 124,
+    "Critical": 104
    },
    "dataSource": "synthetic"
   },
@@ -129858,8 +129858,8 @@
    "truthRiskMix": {
     "Low": 1364,
     "Medium": 787,
-    "High": 830,
-    "Critical": 1658
+    "High": 913,
+    "Critical": 1575
    },
    "dataSource": "synthetic"
   },
@@ -130294,8 +130294,8 @@
    "truthRiskMix": {
     "Low": 720,
     "Medium": 186,
-    "High": 113,
-    "Critical": 125
+    "High": 124,
+    "Critical": 114
    },
    "dataSource": "synthetic"
   },
@@ -130737,8 +130737,8 @@
    "truthRiskMix": {
     "Low": 496,
     "Medium": 228,
-    "High": 214,
-    "Critical": 269
+    "High": 231,
+    "Critical": 252
    },
    "dataSource": "synthetic"
   },
@@ -131191,8 +131191,8 @@
    "truthRiskMix": {
     "Low": 121,
     "Medium": 34,
-    "High": 20,
-    "Critical": 5
+    "High": 21,
+    "Critical": 4
    },
    "dataSource": "synthetic"
   },
@@ -131630,8 +131630,8 @@
    "truthRiskMix": {
     "Low": 458,
     "Medium": 121,
-    "High": 115,
-    "Critical": 121
+    "High": 126,
+    "Critical": 110
    },
    "dataSource": "synthetic"
   },
@@ -132082,8 +132082,8 @@
    "truthRiskMix": {
     "Low": 373,
     "Medium": 162,
-    "High": 154,
-    "Critical": 209
+    "High": 168,
+    "Critical": 195
    },
    "dataSource": "synthetic"
   },
@@ -132536,8 +132536,8 @@
    "truthRiskMix": {
     "Low": 138,
     "Medium": 74,
-    "High": 59,
-    "Critical": 86
+    "High": 64,
+    "Critical": 81
    },
    "dataSource": "synthetic"
   },
@@ -133033,8 +133033,8 @@
    "truthRiskMix": {
     "Low": 199,
     "Medium": 167,
-    "High": 132,
-    "Critical": 283
+    "High": 153,
+    "Critical": 262
    },
    "dataSource": "synthetic"
   },
@@ -133483,8 +133483,8 @@
    "truthRiskMix": {
     "Low": 872,
     "Medium": 303,
-    "High": 222,
-    "Critical": 237
+    "High": 239,
+    "Critical": 220
    },
    "dataSource": "synthetic"
   },
@@ -133903,8 +133903,8 @@
    "truthRiskMix": {
     "Low": 260,
     "Medium": 40,
-    "High": 18,
-    "Critical": 14
+    "High": 19,
+    "Critical": 13
    },
    "dataSource": "synthetic"
   },
@@ -134342,8 +134342,8 @@
    "truthRiskMix": {
     "Low": 591,
     "Medium": 272,
-    "High": 270,
-    "Critical": 308
+    "High": 299,
+    "Critical": 279
    },
    "dataSource": "synthetic"
   },
@@ -134777,8 +134777,8 @@
    "truthRiskMix": {
     "Low": 269,
     "Medium": 54,
-    "High": 29,
-    "Critical": 19
+    "High": 31,
+    "Critical": 17
    },
    "dataSource": "synthetic"
   },
@@ -135227,8 +135227,8 @@
    "truthRiskMix": {
     "Low": 265,
     "Medium": 108,
-    "High": 108,
-    "Critical": 118
+    "High": 120,
+    "Critical": 106
    },
    "dataSource": "synthetic"
   },
@@ -135680,8 +135680,8 @@
    "truthRiskMix": {
     "Low": 292,
     "Medium": 109,
-    "High": 89,
-    "Critical": 162
+    "High": 103,
+    "Critical": 148
    },
    "dataSource": "synthetic"
   },
@@ -136130,8 +136130,8 @@
    "truthRiskMix": {
     "Low": 1360,
     "Medium": 368,
-    "High": 255,
-    "Critical": 215
+    "High": 274,
+    "Critical": 196
    },
    "dataSource": "synthetic"
   },
@@ -136580,8 +136580,8 @@
    "truthRiskMix": {
     "Low": 984,
     "Medium": 325,
-    "High": 228,
-    "Critical": 210
+    "High": 242,
+    "Critical": 196
    },
    "dataSource": "synthetic"
   },
@@ -137061,8 +137061,8 @@
    "truthRiskMix": {
     "Low": 262,
     "Medium": 56,
-    "High": 45,
-    "Critical": 41
+    "High": 47,
+    "Critical": 39
    },
    "dataSource": "synthetic"
   },
@@ -137481,8 +137481,8 @@
    "truthRiskMix": {
     "Low": 895,
     "Medium": 120,
-    "High": 58,
-    "Critical": 25
+    "High": 61,
+    "Critical": 22
    },
    "dataSource": "synthetic"
   },
@@ -137886,8 +137886,8 @@
    "truthRiskMix": {
     "Low": 188,
     "Medium": 59,
-    "High": 37,
-    "Critical": 39
+    "High": 39,
+    "Critical": 37
    },
    "dataSource": "synthetic"
   },
@@ -138338,8 +138338,8 @@
    "truthRiskMix": {
     "Low": 1180,
     "Medium": 424,
-    "High": 333,
-    "Critical": 441
+    "High": 363,
+    "Critical": 411
    },
    "dataSource": "synthetic"
   },
@@ -138781,8 +138781,8 @@
    "truthRiskMix": {
     "Low": 230,
     "Medium": 60,
-    "High": 52,
-    "Critical": 42
+    "High": 54,
+    "Critical": 40
    },
    "dataSource": "synthetic"
   },
@@ -139220,8 +139220,8 @@
    "truthRiskMix": {
     "Low": 547,
     "Medium": 345,
-    "High": 405,
-    "Critical": 908
+    "High": 447,
+    "Critical": 866
    },
    "dataSource": "synthetic"
   }

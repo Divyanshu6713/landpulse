@@ -74,7 +74,7 @@ KEEP_VERSIONS = 5
 
 # Case-level cut-offs on the predicted probability that one parcel's milestone
 # slips by more than 30 days.
-RISK_BAND_THRESHOLDS = {"medium": 0.30, "high": 0.55, "critical": 0.78}
+RISK_BAND_THRESHOLDS = {"medium": 0.30, "high": 0.55, "critical": 0.80}
 
 # Project-level cut-offs. A project's risk is the expected share of its open
 # current-stage parcels whose milestone slips (the mean case probability), which

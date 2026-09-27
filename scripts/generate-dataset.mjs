@@ -108,7 +108,7 @@ const HIDDEN_WEIGHT = Number(process.env.BP_HIDDEN ?? 0.5);
 const SIGNAL_GAIN = Number(process.env.BP_GAIN ?? 2.0);
 
 const DELAY_THRESHOLD_DAYS = 30;
-const RISK_BAND_CUTS = { medium: 0.3, high: 0.55, critical: 0.78 };
+const RISK_BAND_CUTS = { medium: 0.3, high: 0.55, critical: 0.8 };
 const TARGET_POSITIVE_RATE = 0.362;
 
 const STAGE_INDEX = new Map(LIFECYCLE_STAGES.map((s, i) => [s, i]));

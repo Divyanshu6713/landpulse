@@ -8,7 +8,7 @@ import { ChartLegend, ChartTooltip } from '@/components/charts';
 import { ErrorState, RiskPill } from '@/components/ui/primitives';
 import { ContributorBars } from '@/components/explain/Contributors';
 import { FilterBar, allOption, toOptions } from '@/components/ui/FilterBar';
-import { AXIS_TICK, CHART_COLORS, CHART_CURSOR, RISK_CLASS, RISK_HEX } from '@/lib/risk';
+import { AXIS_TICK, CASE_RISK_BAND_CUTS, CHART_COLORS, CHART_CURSOR, RISK_CLASS, RISK_HEX } from '@/lib/risk';
 import { formatCompact, formatNumber } from '@/lib/format';
 import { useApi, useFilters } from '@/hooks';
 import { fetchContributors, fetchFacets, fetchModel, fetchProjects, fetchSummary } from '@/api/client';
@@ -32,7 +32,7 @@ export default function RiskAnalysis() {
     return s.scoreHistogram.map((count, i) => {
       const from = i * 5;
       const mid = from + 2.5;
-      return { bucket: `${from}`, count, band: mid >= 78 ? 'Critical' : mid >= 55 ? 'High' : mid >= 30 ? 'Medium' : 'Low' };
+      return { bucket: `${from}`, count, band: mid >= CASE_RISK_BAND_CUTS.critical ? 'Critical' : mid >= CASE_RISK_BAND_CUTS.high ? 'High' : mid >= CASE_RISK_BAND_CUTS.medium ? 'Medium' : 'Low' };
     });
   }, [s]);
 

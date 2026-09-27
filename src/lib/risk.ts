@@ -12,7 +12,7 @@ import { TONE_CHIP, TONE_DOT, TONE_PANEL, TONE_TEXT, type Tone } from './tone';
  * CASE_RISK_BAND_CUTS (RISK_BAND_THRESHOLDS).
  */
 export const RISK_BAND_CUTS = { medium: 30, high: 45, critical: 60 } as const;
-export const CASE_RISK_BAND_CUTS = { medium: 30, high: 55, critical: 78 } as const;
+export const CASE_RISK_BAND_CUTS = { medium: 30, high: 55, critical: 80 } as const;
 
 export const riskFromScore = (score: number): RiskLevel =>
   score >= RISK_BAND_CUTS.critical
